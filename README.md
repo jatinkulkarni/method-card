@@ -68,3 +68,114 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Phases 
+|
+|-> Phase 1
+    |
+    |-> Group (Q1_P1)
+        |
+        |-> Location Data
+            |
+            |-> Behavioral Mapping ****
+        |
+        |-> General
+            |
+            |-> Fly-on-the-Wall ****
+    |
+    |-> Individual
+        |
+        |-> Verbal
+            |
+            |-> Narration ****
+        |
+        |-> Physical
+            |
+            |-> Collage ****
+|
+|-> Phase 2
+    |
+    |-> User (Q1_P2)
+        |
+        |-> Verbal
+            |
+            |-> Explain Like I'm 5 ****
+        |
+        |-> Non-Verbal
+            |
+            |-> Passive
+                |
+                |-> Graffiti ****
+            |
+            |-> Active
+                |
+                |-> Card Sorting ****
+    |
+    |-> Designer (Q2_P2)
+        |
+        |-> Quantitive
+            |
+            |-> Weighted ****
+        |
+        |-> Quality
+            |
+            |-> User Persona ****
+|
+|-> Phase 3
+    |
+    |-> Single
+        |
+        |-> Mind-Map ****
+    |
+    |-> Multi (Q1_P3)
+        |
+        |-> Service
+            |
+            |-> Body Storming ****
+        |
+        |-> Nonservice (Q2_P3)
+            |
+            |-> User
+                |
+                |-> Creative Toolkit ****
+            |
+            |-> Designer
+                |
+                |-> Charette ****     
+|
+|-> Phase 4
+    |
+    |-> Digital
+        |
+        |-> Wireframe ****
+    |
+    |-> Service
+        |
+        |-> Role ****
+    |
+    |-> Physical
+        |
+        |-> Rapid Prototypeing ****
+|
+|-> Phase 5
+    |
+    |-> Qualitative (Q1_P5)
+        |
+        |-> Single
+            |
+            |-> Lover Letter
+        |
+        |-> Multi
+            |
+            |-> Focus Group
+    |
+    |-> Quantitative (Q2_P5)
+        |
+        |-> Single
+            |
+            |-> Walkthrough
+        |
+        |-> Multi
+            |
+            |-> A/B Testing
