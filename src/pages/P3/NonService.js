@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import '../questionpage.css';
 import './Ideate.css';
 
-export default function Phase3() {
+export default function NonService() {
 
     const navigate = useNavigate();
 
@@ -15,11 +15,11 @@ export default function Phase3() {
                         <h2>Context</h2>
                     </div>
                     <div className="question-textbox ideate-textbox">
-                        <h2>Single or Multiplayer?</h2>
+                        <h2>User or Designer?</h2>
                     </div>
                     <div className="selection-section">
-                        <button className="selection-button ideate-button" onClick={() => {navigate('/phase3/MindMap')}} >Single</button>
-                        <button className="selection-button ideate-button" onClick={() => {navigate("/phase3/Multi")}}>Multi</button>
+                        <button className="selection-button ideate-button" onClick={() => {navigate('/phase3/Multi/NonService/Creative-Toolkit')}} >User</button>
+                        <button className="selection-button ideate-button" onClick={() => {navigate('/phase3/Multi/NonService/Charette')}}>Designer</button>
                     </div>
                 </div>
             </main>

@@ -1,0 +1,32 @@
+:root {
+    --background-color: rgb(213, 213, 213); /* Define the color variable locally */
+    --border-color: rgba(48, 51, 56, 0.726);
+    --hover-color: rgb(68, 68, 68);
+  }
+
+.ideate-container {
+    background-color: var(--background-color);
+}
+.ideate-textbox {
+    border: 5px solid rgba(48, 51, 56, 0.726);
+    background-color: rgba(141, 141, 141, 0.481);
+}
+
+.ideate-button {
+    border: 2px solid rgb(198, 198, 198);
+    background-color: var(--background-color);
+}
+
+.ideate-button:hover {
+    background-color: rgb(126, 126, 126);
+    color: white;
+}
+
+.ideate-left-column {
+    background: linear-gradient(to bottom, #e0e0e0, #a4a4a4);
+}
+
+.ideate-right-column {
+    background: linear-gradient(to bottom, #7d7d7d, #242424);
+    color: white;
+}

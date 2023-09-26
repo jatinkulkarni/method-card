@@ -1,14 +1,14 @@
 import React from 'react';
 import '../methodcard.css';
-import './Define.css';
+import './Ideate.css';
 
-export default function Like5() {
+export default function CreativeTK() {
     return(
         <div>
             <main>
                 <div class="container">
-                    <div className="left-column define-left-column">
-                        <h1>Explain Like I am 5</h1>
+                    <div className="left-column ideate-left-column">
+                        <h1>Creative Toolkit</h1>
                         <div className="square">
                             <p>
                                 Image to be added later
@@ -30,7 +30,7 @@ export default function Like5() {
                             </p1>
                         </div>
                     </div>
-                    <div className="right-column define-right-column">
+                    <div className="right-column ideate-right-column">
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">

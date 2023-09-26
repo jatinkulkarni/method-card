@@ -1,0 +1,32 @@
+:root {
+    --background-color: rgb(209, 231, 255); /* Define the color variable locally */
+    --border-color: rgba(0, 102, 255, 0.726);
+    --hover-color: blue;
+  }
+
+.define-container {
+    background-color: var(--background-color);
+}
+.define-textbox {
+    border: 5px solid var(--border-color);
+    background-color: rgba(0, 94, 255, 0.481);
+}
+
+.define-button {
+    border: 2px solid blue;
+    background-color: var(--background-color);
+}
+
+.define-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.define-left-column {
+    background: linear-gradient(to bottom, #8cbcff, #1c91ff);
+}
+
+.define-right-column {
+    background: linear-gradient(to bottom, #64799c, #295270);
+    color: white;
+}

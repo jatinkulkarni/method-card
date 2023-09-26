@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
+import './Homepage.css';
 
 export default function Homepage() {
 
@@ -7,12 +8,20 @@ export default function Homepage() {
 
     return(
         <div>
-            <h1>Which phase are you in?</h1>
-            <button onClick={() => {navigate("/phase1")}} >Phase 1</button>
-            <button onClick={() => {navigate("/phase2")}} >Phase 2</button>
-            <button onClick={() => {navigate("/phase3")}} >Phase 3</button>
-            <button onClick={() => {navigate("/phase4")}}>Phase 4</button>
-            <button onClick={() => {navigate("/phase5")}}>Phase 5</button>
+            <main>
+                <div className="homepage-container">
+                    <div className="homepage-title">
+                        <h1>Which phase are you in?</h1>
+                    </div>
+                    <div className="homepage-button-section">
+                        <button className="homepage-button" onClick={() => {navigate("/empathy")}} >Empathy Island</button>
+                        <button className="homepage-button" onClick={() => {navigate("/define")}} >Define Island</button>
+                        <button className="homepage-button" onClick={() => {navigate("/ideate")}} >Ideate Island</button>
+                        <button className="homepage-button" onClick={() => {navigate("/prototype")}}>Prototype Island</button>
+                        <button className="homepage-button" onClick={() => {navigate("/test")}}>Test Island</button>
+                    </div>
+                </div>
+            </main>
         </div>
     )
 }

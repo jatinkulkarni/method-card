@@ -1,0 +1,32 @@
+.homepage-container{
+    background-color: rgb(143, 178, 242);
+    width: 100vw;
+    height: 100vh;
+}
+
+.homepage-title {
+    padding: 40px;
+    font-size: 40px;
+}
+
+.homepage-button-section {
+    width: 90vw;
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.homepage-button {
+    width: 70%;
+    height: 20vh;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.homepage-button:hover {
+    background-color: darkblue;
+    color: white;
+}

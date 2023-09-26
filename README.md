@@ -164,7 +164,7 @@ Phases
         |
         |-> Single
             |
-            |-> Lover Letter
+            |-> Love Letter
         |
         |-> Multi
             |

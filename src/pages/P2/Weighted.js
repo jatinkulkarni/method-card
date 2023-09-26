@@ -2,13 +2,13 @@ import React from 'react';
 import '../methodcard.css';
 import './Define.css';
 
-export default function Like5() {
+export default function Weighted() {
     return(
         <div>
             <main>
                 <div class="container">
                     <div className="left-column define-left-column">
-                        <h1>Explain Like I am 5</h1>
+                        <h1>Weighted</h1>
                         <div className="square">
                             <p>
                                 Image to be added later

@@ -1,0 +1,32 @@
+:root {
+    --background-color: rgb(255, 209, 209); /* Define the color variable locally */
+    --border-color: rgba(255, 0, 0, 0.726);
+    --hover-color: red;
+  }
+
+.empathy-container {
+    background-color: var(--background-color);
+}
+.empathy-textbox {
+    border: 5px solid rgba(255, 0, 0, 0.726);
+    background-color: rgba(255, 0, 0, 0.481);
+}
+
+.empathy-button {
+    border: 2px solid red;
+    background-color: var(--background-color);
+}
+
+.empathy-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.empathy-left-column {
+    background: linear-gradient(to bottom, #ff8c8c, #ff1c1c);
+}
+
+.empathy-right-column {
+    background: linear-gradient(to bottom, #9c6464, #702929);
+    color: white;
+}

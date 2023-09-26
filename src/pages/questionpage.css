@@ -1,0 +1,31 @@
+.question-container {
+    display: grid;
+    grid-template-rows: 40vh 30vh 30vh;
+}
+
+.question-textbox {
+    width: 70vw;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.selection-section {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+}
+
+.selection-button {
+    width: 80%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}

@@ -1,0 +1,41 @@
+:root {
+    --background-color: rgb(209, 255, 228); /* Define the color variable locally */
+    --border-color: rgba(0, 255, 60, 0.726);
+    --hover-color: green;
+  }
+
+.prototype-container {
+    background-color: var(--background-color);
+}
+.prototype-textbox {
+    border: 5px solid rgba(0, 255, 60, 0.726);
+    background-color: rgba(0, 255, 136, 0.481);
+}
+
+.prototype-button {
+    border: 2px solid green;
+    background-color: var(--background-color);
+}
+
+.prototype-button:hover {
+    background-color: green;
+    color: white;
+}
+
+.prototype-left-column {
+    background: linear-gradient(to bottom, #8cffb8, #1cff5c);
+}
+
+.prototype-right-column {
+    background: linear-gradient(to bottom, #649c71, #29704a);
+    color: white;
+}
+
+.prototype-selection-section {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 33% 33% 33%;
+}

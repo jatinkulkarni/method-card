@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'NeueMetana-Regular';
+  src: url('./fonts/NeueMetana-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'NeueMetana-Bold';
+  src: url('./fonts/NeueMetana-Bold.otf') format('opentype');
+}
