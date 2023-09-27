@@ -36,7 +36,7 @@ export default function TestIsland() {
                 </div>
                 <div className="button-section">
                     <button className="button" onClick={() => {navigate('/phase5')}} >Continue</button>
-                    <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
+                    <button className="button" onClick={() => {navigate('/phaseSelect')}} >Go Back</button>
                 </div>
             </div>
         </div>

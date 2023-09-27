@@ -3,6 +3,7 @@ import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from './firebase/firebase';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Welcome from './pages/Welcome';
 import Homepage from './pages/Homepage.js';
 import EmpathyIsland from './pages/P1/EmpathyIsland';
 import Phase1 from './pages/P1/Phase1.js';
@@ -55,7 +56,8 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Homepage/>} />
+          <Route path='/' element={<Welcome/>} />
+          <Route path='/phaseSelect' element={<Homepage/>} />
           <Route path='/empathy' element={<EmpathyIsland/>} />
           <Route path='/phase1' element={<Phase1/>} />
           <Route path='/phase1/Group' element={<Group/>} />
