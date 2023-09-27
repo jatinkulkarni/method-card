@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
+import { useAppContext } from '../../AppContext';
 import Cid from '../../assets/cid.png'
 
 // CSS
@@ -16,6 +17,8 @@ export default function EmpathyIsland() {
           event_description: 'EmpathyIsland.js was loaded or executed',
         });
       }, []); 
+    
+    const { avatarName } = useAppContext();
 
     const navigate = useNavigate();
 
@@ -23,7 +26,7 @@ export default function EmpathyIsland() {
         <div className="empathy-island">
             <div className="background">
                 <div className="title">
-                    <div className="title-text">Welcome!</div>
+                    <div className="title-text">Welcome {avatarName}!</div>
                 </div>
                 <div className="message-section">
                     <div className="message-box">
