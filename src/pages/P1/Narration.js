@@ -16,17 +16,23 @@ export default function Narration() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. 
+                                <strong>Objective:</strong> Understand the thought process of your participant while they perform a process.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Who:</strong> Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla.
+                                <strong>Who:</strong> participant, design team
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>How:</strong> Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. 
+                                <strong>How:</strong>
+                                <ol className="method-tb-list">
+                                    <li>Have the participant narrate what they are doing while they are performing a process or specific task.</li>
+                                    <li>Ask them what they are thinking while they are doing the task.</li>
+                                    <li>Ask them why they specifically did certain things to gain more insight.</li>
+                                    <li>Consider having them approach the process in alternative ways.</li>
+                                </ol>
                             </p1>
                         </div>
                     </div>
@@ -34,19 +40,45 @@ export default function Narration() {
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. Integer eleifend elit nec nisi cursus, eu ultrices orci gravida. Fusce fringilla sapien a est pellentesque, eu varius felis hendrerit. Curabitur congue lectus in dui consectetur, eget malesuada justo venenatis.
+                                We will show you an example of the case study method in action.
                             </p>
                             <p className="case-study-side-font">
-                                Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla. Vivamus varius euismod velit, a luctus justo iaculis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sodales quam eu nisl venenatis, eget blandit dolor bibendum.
+                                <strong>Study: </strong>Understanding the use of AI tools among UT Austin students
                             </p>
                             <p className="case-study-side-font">
-                                Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. Aenean sollicitudin orci id lectus malesuada, nec egestas justo tincidunt. Nunc id quam ac justo ullamcorper varius. In hac habitasse platea dictumst. Integer quis justo vel elit facilisis rhoncus.
+                                <strong>Background: </strong>The creation of ChatGPT and other open source AI tools caused talk among the possibilities 
+                                of AI to explode within the media and general population. Students are especially finding ChatGPT and other AI tools 
+                                helpful with their schoolwork, but because of the increasing use of these tools many are concerned with plagiarism and 
+                                untraditional methods of learning. 
                             </p>
                             <p className="case-study-side-font">
-                                Suspendisse potenti. Quisque ut elit nec dui faucibus accumsan. Ut euismod, dolor in dignissim volutpat, lorem dui convallis risus, eu blandit odio eros vel odio. Integer euismod, justo at lacinia sodales, arcu nunc blandit est, id vestibulum sapien ipsum a purus. Sed hendrerit, lectus nec vehicula consequat, tortor leo auctor dolor, non ultrices massa purus non libero.
+                                <strong>Problem Statement: </strong>There is a need to understand how students use ChatGPT and other AI tools to assist 
+                                with their schoolwork or other aspects of their life.  
                             </p>
                             <p className="case-study-side-font">
-                                Mauris rhoncus, nisi sit amet consequat facilisis, tortor dolor malesuada elit, sed bibendum tortor augue id augue. Vivamus dapibus, sapien nec feugiat ultricies, libero ex vulputate ante, a suscipit ex ante et odio. Nullam quis suscipit lectus. Vivamus mattis arcu a quam finibus, eget vehicula nulla venenatis. Nulla facilisi.
+                                <strong>Implementation: </strong>
+                                <ol className="case-study-tb-list">
+                                    <li>We provided the student with a prompt and asked them to choose an AI tool to help answer the prompt.</li>
+                                    <li>The student chose ChatGPT and asked it the question we prompted. </li>
+                                    <li>
+                                        The student then narrated why they chose ChatGPT and what questions they asked ChatGPT until they found 
+                                        an answer they felt comfortable with sharing. 
+                                    </li>
+                                </ol>
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Insights: </strong>
+                                <ul className="case-study-tb-list">
+                                    <li>
+                                        Even though we told the student they could choose any AI tool they stuck with ChatGPT and didn’t try another 
+                                        tool even when the answer ChatGPT gave at first wasn’t satisfactory. 
+                                    </li>
+                                    <li>
+                                        Instead of picking another tool to help them answer the question, they asked ChatGPT several different iterations 
+                                        of the small question in order to receive a different answer. They said that they chose the words “clarify” 
+                                        and “detail” because they felt like they needed to be more specific with the tool in order to receive a better answer.
+                                    </li>
+                                </ul>
                             </p>
                         </div>
                     </div>

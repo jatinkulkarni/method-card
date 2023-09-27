@@ -16,17 +16,25 @@ export default function Weighted() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. 
+                                <strong>Objective:</strong> provide a systematic and structured approach for evaluating and comparing different design options or alternatives.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Who:</strong> Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla.
+                                <strong>Who:</strong> designers, team members, users 
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>How:</strong> Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. 
+                                <strong>How:</strong>
+                                <ol className="method-tb-list">
+                                    <li>Define design objectives.</li>
+                                    <li>Identify criteria that will be used to assess design alternatives (should be measurable).</li>
+                                    <li>Assign weights to each criteria based on importance. </li>
+                                    <li>Establish a scoring system for each criteria (numerical or descriptive scale). </li>
+                                    <li>Evaluate design alternatives and score it based on how it performs for each criteria.</li>
+                                    <li>Calculate total weighted scores and select preferred design. </li>
+                                </ol>
                             </p1>
                         </div>
                     </div>
@@ -34,19 +42,33 @@ export default function Weighted() {
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. Integer eleifend elit nec nisi cursus, eu ultrices orci gravida. Fusce fringilla sapien a est pellentesque, eu varius felis hendrerit. Curabitur congue lectus in dui consectetur, eget malesuada justo venenatis.
+                                We will show you an example of the weighted matrix method in action.
                             </p>
                             <p className="case-study-side-font">
-                                Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla. Vivamus varius euismod velit, a luctus justo iaculis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sodales quam eu nisl venenatis, eget blandit dolor bibendum.
+                                <strong>Study: </strong>Course Recommendation for BDP Students
                             </p>
                             <p className="case-study-side-font">
-                                Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. Aenean sollicitudin orci id lectus malesuada, nec egestas justo tincidunt. Nunc id quam ac justo ullamcorper varius. In hac habitasse platea dictumst. Integer quis justo vel elit facilisis rhoncus.
+                                <strong>Background: </strong>The Design Strategies Certificate provides students with a multidisciplinary framework in design thinking. To address the challenge of course selection, we interviewed students and utilized the weighted matrix method to help them personalize their own course selections.
                             </p>
                             <p className="case-study-side-font">
-                                Suspendisse potenti. Quisque ut elit nec dui faucibus accumsan. Ut euismod, dolor in dignissim volutpat, lorem dui convallis risus, eu blandit odio eros vel odio. Integer euismod, justo at lacinia sodales, arcu nunc blandit est, id vestibulum sapien ipsum a purus. Sed hendrerit, lectus nec vehicula consequat, tortor leo auctor dolor, non ultrices massa purus non libero.
+                                <strong>Problem Statement: </strong>Students pursuing the Design Strategies Certificate often struggle to select among the wide array of classes offered. With a diverse range of classes, students may find it difficult to select courses that align with their interests and career aspirations. This can lead to suboptimal course selections and inability to maximize the benefits of the certificate.
                             </p>
                             <p className="case-study-side-font">
-                                Mauris rhoncus, nisi sit amet consequat facilisis, tortor dolor malesuada elit, sed bibendum tortor augue id augue. Vivamus dapibus, sapien nec feugiat ultricies, libero ex vulputate ante, a suscipit ex ante et odio. Nullam quis suscipit lectus. Vivamus mattis arcu a quam finibus, eget vehicula nulla venenatis. Nulla facilisi.
+                                <strong>Implementation: </strong>
+                                <ol className="case-study-tb-list">
+                                    <li>Data Collection: We gathered student information (GPA, career goals, area of interests, etc.) and course information offered in the Design Strategies strand (course description, faculty, etc.)</li>
+                                    <li>Weight Assignment: We helped students define the weights for various factors, such as career goals, areas of interest, past performance, and faculty-student compatibility.</li>
+                                    <li>Rank: Students rank each course for each criterion on a descriptive scale (e.g., unimportant, slightly important, important, very important).</li>
+                                    <li>Matching and Recommendation: A score is calculated for each student by multiplying the weight for each criterion by the student's ranking for that criterion.</li>
+                                    <li>Feedback and Adjustment: Courses with higher scores are recommended to each student specific to their personalization.After receiving course recommendations, students had the opportunity to provide feedback and make adjustments.</li>
+                                </ol>
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Insights: </strong>
+                                <ul className="case-study-tb-list">
+                                    <li>The implementation of the weighted matrix method in has allowed students to receive tailored recommendations that consider their unique career goals and areas of interest.</li>
+                                    <li>This method allows for objective decision-making, prioritization, efficiency driven by data that align with project objectives.</li>
+                                </ul>
                             </p>
                         </div>
                     </div>

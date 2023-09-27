@@ -67,6 +67,13 @@ h1{
     height:fit-content;
 }
 
+.method-tb-list {
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: left;
+    height:fit-content;
+}
+
 .method-side-font {
     font-size: 20px;
 }
@@ -79,9 +86,16 @@ h1{
     height:fit-content;
 }
 
+.case-study-tb-list {
+    padding-left: 7%;
+    padding-right: 7%;
+    text-align: left;
+    height:fit-content;
+}
+
 .case-study-side-font {
     font-size: 20px;
-    text-indent: 40px;
+    /* text-indent: 40px; */
     line-height: 1.5;
     padding-bottom: 20px;
 }

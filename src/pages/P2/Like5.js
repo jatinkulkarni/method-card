@@ -16,17 +16,23 @@ export default function Like5() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. 
+                                <strong>Objective:</strong> simplify complex concepts to make them easy to understand, especially for those who might not have much knowledge or experience in a particular field, similar to how you would explain something to a 5-year old.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Who:</strong> Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla.
+                                <strong>Who:</strong> designers or team members utilize it on users or stakeholders, any audience
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>How:</strong> Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. 
+                                <strong>How:</strong> 
+                                <ol className="method-tb-list">
+                                    <li>Determine what you want to design or communicate (a product, a website, a presentation, etc.)</li>
+                                    <li>Simplify your design concept into its basic parts. </li>
+                                    <li>Use simple language. </li>
+                                    <li>Use visuals or storytelling aspects to make your design easier to understand.</li>
+                                </ol>
                             </p1>
                         </div>
                     </div>
@@ -34,19 +40,30 @@ export default function Like5() {
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. Integer eleifend elit nec nisi cursus, eu ultrices orci gravida. Fusce fringilla sapien a est pellentesque, eu varius felis hendrerit. Curabitur congue lectus in dui consectetur, eget malesuada justo venenatis.
+                                We will show you an example of the “Explain like I’m 5” method in action.   
                             </p>
                             <p className="case-study-side-font">
-                                Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla. Vivamus varius euismod velit, a luctus justo iaculis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sodales quam eu nisl venenatis, eget blandit dolor bibendum.
+                                <strong>Study: </strong>Interdisciplinary Exploration
                             </p>
                             <p className="case-study-side-font">
-                                Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. Aenean sollicitudin orci id lectus malesuada, nec egestas justo tincidunt. Nunc id quam ac justo ullamcorper varius. In hac habitasse platea dictumst. Integer quis justo vel elit facilisis rhoncus.
+                                <strong>Background: </strong>Meet Emily, a college student enrolled in a Bridging Disciplines Program. Emma loves to learn about many different subjects, but she often finds it challenging to connect the dots between those diverse fields of study.
                             </p>
                             <p className="case-study-side-font">
-                                Suspendisse potenti. Quisque ut elit nec dui faucibus accumsan. Ut euismod, dolor in dignissim volutpat, lorem dui convallis risus, eu blandit odio eros vel odio. Integer euismod, justo at lacinia sodales, arcu nunc blandit est, id vestibulum sapien ipsum a purus. Sed hendrerit, lectus nec vehicula consequat, tortor leo auctor dolor, non ultrices massa purus non libero.
+                                <strong>Problem Statement: </strong>Emily wants to make the most of her Bridging Disciplines program, but she's not sure how to connect all these different subjects and make it all work together.
                             </p>
                             <p className="case-study-side-font">
-                                Mauris rhoncus, nisi sit amet consequat facilisis, tortor dolor malesuada elit, sed bibendum tortor augue id augue. Vivamus dapibus, sapien nec feugiat ultricies, libero ex vulputate ante, a suscipit ex ante et odio. Nullam quis suscipit lectus. Vivamus mattis arcu a quam finibus, eget vehicula nulla venenatis. Nulla facilisi.
+                                <strong>Implementation: </strong>
+                                <ol className="case-study-tb-list">
+                                    <li>Building the Map: Emily starts on a blank Miro board. She writes down all the different subjects she's studying, like art, science, engineering, and what she’s interested in.</li>
+                                    <li>Making Connections: She draws lines between the subjects that are related. For example, she connects art with engineering because she is interested in the design side of engineering.</li>
+                                    <li>Planning Courses: Emily looks at her map and picks courses that help her reach her goals.</li>
+                                </ol>
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Insights: </strong>
+                                <ul className="case-study-tb-list">
+                                    <li>Emily's "Learning Map" helps her see how all her interests fit together. Her program becomes more exciting and meaningful.</li>
+                                </ul>
                             </p>
                         </div>
                     </div>
