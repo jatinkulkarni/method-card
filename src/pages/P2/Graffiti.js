@@ -1,5 +1,6 @@
 import React from 'react';
 import '../methodcard.css';
+import cardImage from '../../assets/graffiti-wall.png'
 import './Define.css';
 
 export default function Graffiti() {
@@ -10,9 +11,7 @@ export default function Graffiti() {
                     <div className="left-column define-left-column">
                         <h1>Graffiti</h1>
                         <div className="square">
-                            <p>
-                                Image to be added later
-                            </p>
+                            <img className="image" alt="Method" src={cardImage}/>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../methodcard.css';
+import cardImage from '../../assets/behavioral-mapping.png';
 import './Empathy.css';
 
 export default function BehavioralMapping() {
@@ -10,9 +11,7 @@ export default function BehavioralMapping() {
                     <div className="left-column empathy-left-column">
                         <h1>Behavioral Mapping</h1>
                         <div className="square">
-                            <p>
-                                Image to be added later
-                            </p>
+                            <img className="image" alt="Method" src={cardImage}/>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
