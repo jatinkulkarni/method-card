@@ -34,7 +34,7 @@ export default function PrototypeIsland() {
                     <img className="message-cid" alt="Cid" src={Cid}/>
                 </div>
                 <div className="button-section">
-                    <button className="button" onClick={() => {navigate('/phase2')}} >Continue</button>
+                    <button className="button" onClick={() => {navigate('/phase4')}} >Continue</button>
                     <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
                 </div>
             </div>
