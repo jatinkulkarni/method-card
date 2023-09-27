@@ -17,17 +17,23 @@ export default function MindMap() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. 
+                                <strong>Objective:</strong> Show how different pieces of data or ideas are connected to better understand and retain information. It is a way to generate ideas through association and lets designers see the bigger picture by breaking down large topics or projects into manageable chunks.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Who:</strong> Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla.
+                                <strong>Who:</strong> A designer or researcher
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>How:</strong> Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. 
+                                <strong>How:</strong> 
+                                <ol className="method-tb-list">
+                                    <li>Start in the middle of the page with the central theme/main idea. </li>
+                                    <li>Work outwards in all directions using lines, arrows, branches, and different colors to create a growing diagram made of keywords, phrases, concepts, facts and figures that are connected to the main theme or to other ideas.</li>
+                                    <li>Draw freely and quickly (long pauses are not to be encouraged) without judgment.</li>
+                                    <li>Review it and revise/reorder it until you are satisfied with your results.</li>
+                                </ol>
                             </p1>
                         </div>
                     </div>
@@ -35,19 +41,49 @@ export default function MindMap() {
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. Integer eleifend elit nec nisi cursus, eu ultrices orci gravida. Fusce fringilla sapien a est pellentesque, eu varius felis hendrerit. Curabitur congue lectus in dui consectetur, eget malesuada justo venenatis.
+                                We will show you an example of the Mind Mapping method in action.
                             </p>
                             <p className="case-study-side-font">
-                                Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla. Vivamus varius euismod velit, a luctus justo iaculis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sodales quam eu nisl venenatis, eget blandit dolor bibendum.
+                                <strong>Study: </strong>Creating a Mind Map while ideating new types of possible transportation for UT students
                             </p>
                             <p className="case-study-side-font">
-                                Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. Aenean sollicitudin orci id lectus malesuada, nec egestas justo tincidunt. Nunc id quam ac justo ullamcorper varius. In hac habitasse platea dictumst. Integer quis justo vel elit facilisis rhoncus.
+                                <strong>Background: </strong> While UT has on campus dorms and apartments nearby, transportation can be a hassle for those commuting from farther away. Busses are not always reliable, Lime Scooters and Bicycles are not readily available in suburbs, and Ubers/Lyfts can be expensive.
                             </p>
                             <p className="case-study-side-font">
-                                Suspendisse potenti. Quisque ut elit nec dui faucibus accumsan. Ut euismod, dolor in dignissim volutpat, lorem dui convallis risus, eu blandit odio eros vel odio. Integer euismod, justo at lacinia sodales, arcu nunc blandit est, id vestibulum sapien ipsum a purus. Sed hendrerit, lectus nec vehicula consequat, tortor leo auctor dolor, non ultrices massa purus non libero.
+                                <strong>Problem Statement: </strong>There is a need for more reliable and affordable modes transportation for UT students living far from campus.
                             </p>
                             <p className="case-study-side-font">
-                                Mauris rhoncus, nisi sit amet consequat facilisis, tortor dolor malesuada elit, sed bibendum tortor augue id augue. Vivamus dapibus, sapien nec feugiat ultricies, libero ex vulputate ante, a suscipit ex ante et odio. Nullam quis suscipit lectus. Vivamus mattis arcu a quam finibus, eget vehicula nulla venenatis. Nulla facilisi.
+                                <strong>Implementation: </strong>
+                                <ol className="case-study-tb-list">
+                                    <li>
+                                        Role-Playing Setup:
+                                        <ul className="case-study-tb-list">
+                                            <li>Identify key stakeholders to participate in the role-playing exercise. This may include students, faculty, staff, and parking management personnel.</li>
+                                            <li>Assign specific roles to participants, such as a student looking for parking, a faculty member needing a reserved spot, and a parking attendant using the new system.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Scenario Development:
+                                        <ul className="case-study-tb-list">
+                                            <li>Create a realistic scenario for the role-playing exercise. For example, it could involve a busy Monday morning with limited parking spots available.</li>
+                                            <li>Provide each participant with background information about their role, including their specific goals and challenges.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Role-Playing Session:
+                                        <ul className="case-study-tb-list">
+                                            <li>Conduct the role-playing session in a simulated environment, such as a classroom or a designated parking area.</li>
+                                            <li>Participants act out their assigned roles, interacting with each other and the parking management system.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Insights: </strong>
+                                <ul className="case-study-tb-list">
+                                    <li>The role-playing exercise provided valuable insights into how different user groups interact with the parking management system.</li>
+                                    <li>The student may have found it difficult to locate available parking spots, while the faculty member may have encountered issues with reserving a spot.</li>
+                                </ul>
                             </p>
                         </div>
                     </div>

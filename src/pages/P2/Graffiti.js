@@ -44,7 +44,10 @@ export default function Graffiti() {
                                 We will show you an example of the graffiti wall in action.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Background: </strong>Understanding the food practices of UT Austin students.
+                                <strong>Study: </strong>Understanding the food practices of UT Austin students.
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Background: </strong>With classes, jobs, student organizations, and other obligations many students find it challenging to find time throughout the day to eat. Students especially struggle with finding the time to regularly eat well balanced and nutritional meals, often opting for convenience or affordability instead.
                             </p>
                             <p className="case-study-side-font">
                                 <strong>Problem Statement: </strong>There is a need to understand the food options available to UT Austin students.
@@ -53,7 +56,7 @@ export default function Graffiti() {
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
                                     <li>Participants: A diverse group of UT Austin students representing various backgrounds and dietary preferences.</li>
-                                    <li>Data Collection: Participants were given access to physical or digital graffiti walls, where they could express their experiences and preferences regarding food options on campus..</li>
+                                    <li>Data Collection: Participants were given access to physical or digital graffiti walls, where they could express their experiences and preferences regarding food options on campus.</li>
                                     <li>Data Analysis: Graffiti wall contributions were analyzed to identify recurring themes, preferences, and concerns.</li>
                                 </ol>
                             </p>

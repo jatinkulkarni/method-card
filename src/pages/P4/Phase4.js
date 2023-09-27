@@ -12,12 +12,15 @@ export default function Phase4() {
             <div className="background">
                 <div className="context">
                     <p className="context-text">
-                        Context
+                        There are many different types of products you can create when thinking about how to best help a user. 
+                        Digital products (like a websites), services (systems such as checking in at an airport) and physical 
+                        products (like your phone) are the three main categories for types of products. Each of these has a 
+                        different way to prototype. 
                     </p>
                 </div>
                 <div className="question">
                     <p className="question-text">
-                        Question
+                        What category of design is your idea in?
                     </p>
                 </div>
                 <div className="button-section">

@@ -30,8 +30,8 @@ export default function PrototypeIsland() {
                 <div className="message-section">
                     <div className="message-box">
                         <p className="message-text">
-                            You have landed on Prototye Island! The people of the island are experts at helping define a problem
-                            based on your data. They will help you choose a research method based on your project.
+                            You have landed on Prototype Island! The people of the island are some of the most technologically 
+                            advanced in the universe. Get their help choosing the best method to prototype your idea. 
                         </p>
                     </div>
                     <img className="message-cid" alt="Cid" src={Cid}/>

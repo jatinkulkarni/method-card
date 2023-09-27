@@ -16,17 +16,21 @@ export default function CreativeTK() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. 
+                                <strong>Objective:</strong> Give designers a set of elements that can be reused for a variety of research sessions in participatory design. This can be helpful in engaging people to project thoughts, feelings, desires, and emotions that might be hard otherwise when using traditional research methods & helps with team building.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Who:</strong> Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla.
+                                <strong>Who:</strong> Designers, researchers, others involved in the design process.
                             </p1>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>How:</strong> Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. 
+                                <strong>How:</strong> 
+                                <ol className="method-tb-list">
+                                    <li>Collect several items to create your desired kit. You can have Lego blocks, buttons, clay, paper, markers, pencils, or pens - anything accommodating a range of potential exercises for participants. </li>
+                                    <li>Use any/all of these items with your design team while ideating, and have fun with it.</li>
+                                </ol>
                             </p1>
                         </div>
                     </div>
@@ -34,19 +38,53 @@ export default function CreativeTK() {
                         <h1>Case Study</h1>
                         <div className="case-study-tb">
                             <p className="case-study-side-font">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ante eget eros hendrerit, non venenatis justo venenatis. Integer eleifend elit nec nisi cursus, eu ultrices orci gravida. Fusce fringilla sapien a est pellentesque, eu varius felis hendrerit. Curabitur congue lectus in dui consectetur, eget malesuada justo venenatis.
+                                We will show you an example of the Creative Toolkit method in action.
                             </p>
                             <p className="case-study-side-font">
-                                Phasellus fermentum lectus at quam gravida, id consequat lorem tristique. Proin euismod purus ac turpis hendrerit, sed sodales erat fringilla. Vivamus varius euismod velit, a luctus justo iaculis nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sodales quam eu nisl venenatis, eget blandit dolor bibendum.
+                                <strong>Study: </strong>Making digital product in CID group project in order to improve parking management
                             </p>
                             <p className="case-study-side-font">
-                                Praesent consequat ultrices quam, ac congue justo. Sed sed magna eget quam facilisis efficitur. Aenean sollicitudin orci id lectus malesuada, nec egestas justo tincidunt. Nunc id quam ac justo ullamcorper varius. In hac habitasse platea dictumst. Integer quis justo vel elit facilisis rhoncus.
+                                <strong>Background: </strong> UT campus is currently facing challenges with parking management. There is a lack of clear signage, leading to confusion and congestion, especially during peak hours. This has resulted in complaints from students, faculty and staff.
                             </p>
                             <p className="case-study-side-font">
-                                Suspendisse potenti. Quisque ut elit nec dui faucibus accumsan. Ut euismod, dolor in dignissim volutpat, lorem dui convallis risus, eu blandit odio eros vel odio. Integer euismod, justo at lacinia sodales, arcu nunc blandit est, id vestibulum sapien ipsum a purus. Sed hendrerit, lectus nec vehicula consequat, tortor leo auctor dolor, non ultrices massa purus non libero.
+                                <strong>Problem Statement: </strong>There is a need for the user-friendly digital solution to optimize parking allocation and provide clear guidance to available parking spaces.
                             </p>
                             <p className="case-study-side-font">
-                                Mauris rhoncus, nisi sit amet consequat facilisis, tortor dolor malesuada elit, sed bibendum tortor augue id augue. Vivamus dapibus, sapien nec feugiat ultricies, libero ex vulputate ante, a suscipit ex ante et odio. Nullam quis suscipit lectus. Vivamus mattis arcu a quam finibus, eget vehicula nulla venenatis. Nulla facilisi.
+                                <strong>Implementation: </strong>
+                                <ol className="case-study-tb-list">
+                                    <li>
+                                        Conceptualizing the Parking Management System:
+                                        <ul className="case-study-tb-list">
+                                            <li>Utilize a digital wireframing tool to create a basic outline of the parking management system. This includes a user interface for a mobile app that displays available parking spots, a map of the campus, and navigation features.</li>
+                                            <li>The wireframe should show how users will interact with the app, including searching for parking, viewing available spots, and navigating to their chosen location.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        User Flow Design:
+                                        <ul className="case-study-tb-list">
+                                            <li>Develop a user flow diagram using the wireframing tool. This illustrates how users will navigate through the app, from opening it to finding and reserving a parking spot.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Feedback and Iteration:
+                                        <ul className="case-study-tb-list">
+                                            <li>Share the wireframes with stakeholders and gather feedback. Make necessary adjustments based on their input to ensure the design meets their requirements.</li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Integration with Campus Infrastructure:
+                                        <ul className="case-study-tb-list">
+                                            <li>Create wireframes to demonstrate how the app will integrate with existing campus infrastructure, such as sensors to detect available parking spaces and synchronization with campus security systems.</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Insights: </strong>
+                                <ul className="case-study-tb-list">
+                                    <li>The digital wireframing process helped to visually represent the parking management system, making it easier for stakeholders to understand the proposed solution.</li>
+                                    <li>By applying Digital Wireframing in this scenario, it allows to effectively create a visual blueprint for the parking management system.</li>
+                                </ul>
                             </p>
                         </div>
                     </div>
