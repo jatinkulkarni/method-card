@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../questionpage.css';
 import './Test.css';
+import Cid from '../../assets/cid-test.png'
 
 export default function Phase5() {
 
@@ -28,6 +29,7 @@ export default function Phase5() {
                     <button className="button" onClick={() => {navigate('/phase5/Qualitative')}} >Qualitative</button>
                     <button className="button" onClick={() => {navigate("/phase5/Quantitative")}}>Quantitative</button>
                 </div>
+                <img className="cid" alt="Cid" src={Cid}/>
             </div>
         </div>
     )

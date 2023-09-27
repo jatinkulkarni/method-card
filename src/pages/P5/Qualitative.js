@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../questionpage.css';
 import './Test.css';
+import Cid from '../../assets/cid-test.png'
 
 export default function Qualitative() {
 
@@ -28,6 +29,7 @@ export default function Qualitative() {
                     <button className="button" onClick={() => {navigate('/phase5/Qualitative/LoveLetter')}}>Individual</button>
                     <button className="button" onClick={() => {navigate('/phase5/Qualitative/FocusGroup')}}>Multiple</button>
                 </div>
+                <img className="cid" alt="Cid" src={Cid}/>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
+import Cid from '../../assets/cid-test.png'
 
 export default function Quantitative() {
 
@@ -26,6 +27,7 @@ export default function Quantitative() {
                     <button className="button" onClick={() => {navigate('/phase5/Quantitative/WalkThrough')}} >Individual</button>
                     <button className="button" onClick={() => {navigate('/phase5/Quantitative/ABTesting')}}>Multiple</button>
                 </div>
+                <img className="cid" alt="Cid" src={Cid}/>
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 import { useAppContext } from '../AppContext.js';
+import './Welcome.css';
 
 export default function Welcome() {
     const { avatarName, setAvatarName } = useAppContext();
@@ -19,16 +20,28 @@ export default function Welcome() {
     const navigate = useNavigate();
   
     return (
-      <div>
-        <p>Avatar Name: {avatarName}</p>
-        <input
-          type="text"
-          placeholder="Enter new avatar name"
-          value={newAvatarName}
-          onChange={handleAvatarNameChange}
-        />
-        <button onClick={updateAvatarName}>Change Avatar Name</button>
-        <button onClick={() => {navigate("/phaseSelect")}} >Continue</button>
+      <div className='welcome'>
+        <div className='avatarName'>
+          <p className='avatar-text'>
+            Welcome {avatarName} to the CID Method Card Game
+          </p>
+        </div>
+        <div className='instruction-section'>
+          <p>Instructions</p>
+        </div>
+        <div className='avatar-customize'>
+          <input
+            className='avatar-tb'
+            type="text"
+            placeholder="Enter new player name"
+            value={newAvatarName}
+            onChange={handleAvatarNameChange}
+          />
+          <button className='avatar-change' onClick={updateAvatarName}>Change Player Name</button>
+        </div>
+        <div className='continue-section'>
+          <button className='continue-button' onClick={() => {navigate("/phaseSelect")}} >Play Now</button>
+        </div>
       </div>
     );
 }

@@ -100,8 +100,7 @@
 
 .define-island .message-cid {
     height: 150px;
-    width: 150px;
-    translate: 25vw -5vh;
+    translate: 25vw -10vh;
 }
 
 .define-island .button-section {
@@ -224,4 +223,11 @@
 .define-question .button:hover {
     background-color: #579e77;
     color: white;
+}
+
+.define-question .cid {
+    height: 250px;
+    position: absolute;
+    top: 65%;
+    left: 82%;
 }

@@ -110,8 +110,7 @@
 
 .prototype-island .message-cid {
     height: 150px;
-    width: 150px;
-    translate: 25vw -5vh;
+    translate: 25vw -10vh;
 }
 
 .prototype-island .button-section {
@@ -234,4 +233,11 @@
 .prototype-question .button:hover {
     background-color: #57629e;
     color: white;
+}
+
+.prototype-question .cid {
+    height: 250px;
+    position: absolute;
+    top: 65%;
+    left: 82%;
 }

@@ -99,8 +99,7 @@
 
 .ideate-island .message-cid {
     height: 150px;
-    width: 150px;
-    translate: 25vw -5vh;
+    translate: 25vw -10vh;
 }
 
 .ideate-island .button-section {
@@ -223,4 +222,11 @@
 .ideate-question .button:hover {
     background-color: #adaa87;
     color: white;
+}
+
+.ideate-question .cid {
+    height: 250px;
+    position: absolute;
+    top: 65%;
+    left: 82%;
 }

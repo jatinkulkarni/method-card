@@ -99,8 +99,7 @@
 
 .empathy-island .message-cid {
     height: 150px;
-    width: 150px;
-    translate: 25vw -5vh;
+    translate: 25vw -10vh;
 }
 
 .empathy-island .button-section {
@@ -222,4 +221,11 @@
 .empathy-question .button:hover {
     background-color: #9e5757;
     color: white;
+}
+
+.empathy-question .cid {
+    height: 250px;
+    position: absolute;
+    top: 65%;
+    left: 82%;
 }
