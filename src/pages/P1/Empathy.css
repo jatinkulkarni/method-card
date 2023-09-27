@@ -36,7 +36,6 @@
     height: fit-content;
     min-width: 100vw;
     width: fit-content;
-    background-color: #1c91ff;
     display: flex;
     flex-direction: column;
 }
@@ -124,6 +123,100 @@
 }
 
 .empathy-island .button:hover {
+    background-color: #9e5757;
+    color: white;
+}
+
+.empathy-question {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.empathy-question .background {
+    background-image: url('../../assets/castle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.empathy-question .context {
+    width: 50vw;
+    min-height: 10vh;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 6px solid #990d0d;
+}
+
+.empathy-question .context-text {
+    color: #000000;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.empathy-question .question {
+    width: 50vw;
+    min-height: 10vh;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 6px solid #990d0d;
+}
+
+.empathy-question .question-text {
+    color: #000000;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.empathy-question .button-section {
+    width: 50vw;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.empathy-question .button {
+    min-height: fit-content;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #990d0d;
+}
+
+.empathy-question .button:hover {
     background-color: #9e5757;
     color: white;
 }

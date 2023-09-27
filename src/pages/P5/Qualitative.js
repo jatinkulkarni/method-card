@@ -8,21 +8,51 @@ export default function Qualitative() {
     const navigate = useNavigate();
 
     return(
-        <div>
-            <main>
-                <div className="question-container test-container">
-                    <div className="test-textbox question-textbox">
-                        <h2>Context</h2>
-                    </div>
-                    <div className="question-textbox test-textbox">
-                        <h2>Single or Muliplayer?</h2>
-                    </div>
-                    <div className="selection-section">
-                        <button className="selection-button test-button" onClick={() => {navigate('/phase5/Qualitative/LoveLetter')}} >Single</button>
-                        <button className="selection-button test-button" onClick={() => {navigate('/phase5/Qualitative/FocusGroup')}}>Multiplayer</button>
-                    </div>
+        <div className="test-question">
+            <div className="background">
+                <div className="context">
+                    <p className="context-text">
+                        You picked Qualitative! 
+                        <br/><br/>
+                        This will help you understanding and exploring a topic in depth. 
+                        <br/><br/>
+                        Remember, some studies may adopt a mixed-methods approach, combining both qualitative and quantitative research methods. 
+                    </p>
                 </div>
-            </main>
+                <div className="question">
+                    <p className="question-text">
+                        Are we testing with an individual user or multiple users?
+                    </p>
+                </div>
+                <div className="button-section">
+                    <button className="button" onClick={() => {navigate('/phase5/Qualitative/LoveLetter')}}>Individual</button>
+                    <button className="button" onClick={() => {navigate('/phase5/Qualitative/FocusGroup')}}>Multiple</button>
+                </div>
+            </div>
         </div>
     )
 }
+
+// export default function Qualitative() {
+
+//     const navigate = useNavigate();
+
+//     return(
+//         <div>
+//             <main>
+//                 <div className="question-container test-container">
+//                     <div className="test-textbox question-textbox">
+//                         <h2>Context</h2>
+//                     </div>
+//                     <div className="question-textbox test-textbox">
+//                         <h2>Single or Muliplayer?</h2>
+//                     </div>
+//                     <div className="selection-section">
+//                         <button className="selection-button test-button" onClick={() => {navigate('/phase5/Qualitative/LoveLetter')}} >Single</button>
+//                         <button className="selection-button test-button" onClick={() => {navigate('/phase5/Qualitative/FocusGroup')}}>Multiplayer</button>
+//                     </div>
+//                 </div>
+//             </main>
+//         </div>
+//     )
+// }

@@ -8,21 +8,50 @@ export default function Phase2() {
     const navigate = useNavigate();
 
     return(
-        <div>
-            <main>
-                <div className="question-container define-container">
-                    <div className="define-textbox question-textbox">
-                        <h2>Context</h2>
-                    </div>
-                    <div className="question-textbox define-textbox">
-                        <h2>User or Designer?</h2>
-                    </div>
-                    <div className="selection-section">
-                        <button className="selection-button define-button" onClick={() => {navigate('/phase2/User')}} >User</button>
-                        <button className="selection-button define-button" onClick={() => {navigate("/phase2/Designer")}}>Designer</button>
-                    </div>
+        <div className="define-question">
+            <div className="background">
+                <div className="context">
+                    <p className="context-text">
+                        Defining a problem is one of the most important steps in teh design process, and there are many ways to go 
+                        about it. Sometimes, you can go to your users to get more information about where exactly their pain points 
+                        are, or you can work with your design team to synthesize thr information you gained from the “empathize” 
+                        step in the process.
+                    </p>
                 </div>
-            </main>
+                <div className="question">
+                    <p className="question-text">
+                        Would you like to gather more data from users or work with your team to define the problem?
+                    </p>
+                </div>
+                <div className="button-section">
+                    <button className="button" onClick={() => {navigate('/phase2/User')}} >Work with Users</button>
+                    <button className="button" onClick={() => {navigate("/phase2/Designer")}}>Work with Designers</button>
+                </div>
+            </div>
         </div>
     )
 }
+
+// export default function Phase2() {
+
+//     const navigate = useNavigate();
+
+//     return(
+//         <div>
+//             <main>
+//                 <div className="question-container define-container">
+//                     <div className="define-textbox question-textbox">
+//                         <h2>Context</h2>
+//                     </div>
+//                     <div className="question-textbox define-textbox">
+//                         <h2>User or Designer?</h2>
+//                     </div>
+//                     <div className="selection-section">
+//                         <button className="selection-button define-button" onClick={() => {navigate('/phase2/User')}} >User</button>
+//                         <button className="selection-button define-button" onClick={() => {navigate("/phase2/Designer")}}>Designer</button>
+//                     </div>
+//                 </div>
+//             </main>
+//         </div>
+//     )
+// }
