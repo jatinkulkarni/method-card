@@ -30,3 +30,99 @@
     background: linear-gradient(to bottom, #7d7d7d, #242424);
     color: white;
 }
+
+.ideate-island {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.ideate-island .background {
+    background-image: url('../../assets/castle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.ideate-island .title {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ideate-island .title-text {
+    font-family: "Neue Metana-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.ideate-island .message-section {
+
+    width: 50vw;
+    min-height: 50vh;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ideate-island .message-box {
+    width: 50vw;
+    min-height: 50vh;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 6px solid #97990d;
+}
+
+.ideate-island .message-text {
+    color: #000000;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ideate-island .message-cid {
+    height: 150px;
+    width: 150px;
+    translate: 25vw -5vh;
+}
+
+.ideate-island .button-section {
+    width: 50vw;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.ideate-island .button {
+    min-height: fit-content;
+    width: 90%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #97990d;
+}
+
+.ideate-island .button:hover {
+    background-color: #adaa87;
+    color: white;
+}

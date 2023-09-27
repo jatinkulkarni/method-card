@@ -3,7 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
-import '../islandpage.css';
+import Cid from '../../assets/cid.png'
+
+// CSS
 import './Test.css';
 
 export default function TestIsland() {
@@ -18,21 +20,25 @@ export default function TestIsland() {
     const navigate = useNavigate();
 
     return(
-        <div>
-            <main>
-                <div className="island-container test-container">
-                    <div className="island-title">
-                        <h1>Test Island</h1>
-                    </div>
-                    <div className="textbox test-textbox">
-                        <p>Welcome to Test Island!</p>
-                    </div>
-                    <div className="button-section">
-                        <button className="button test-button" onClick={() => {navigate('/phase5')}} >Continue</button>
-                        <button className="button test-button" onClick={() => {navigate('/')}} >Go Back</button>
-                    </div>
+        <div className="test-island">
+            <div className="background">
+                <div className="title">
+                    <div className="title-text">Welcome!</div>
                 </div>
-            </main>
+                <div className="message-section">
+                    <div className="message-box">
+                        <p className="message-text">
+                        You have landed on Test Island! The people of the island are experts at testing and iterating prototypes 
+                        for feedback. They will help you choose a research method based on your project.
+                        </p>
+                    </div>
+                    <img className="message-cid" alt="Cid" src={Cid}/>
+                </div>
+                <div className="button-section">
+                    <button className="button" onClick={() => {navigate('/phase2')}} >Continue</button>
+                    <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
+                </div>
+            </div>
         </div>
     )
 }

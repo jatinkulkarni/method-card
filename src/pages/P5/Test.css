@@ -29,3 +29,101 @@
     background: linear-gradient(to bottom, #64799c, #295270);
     color: white;
 }
+
+.test-island {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    background-color: #1c91ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-island .background {
+    background-image: url('../../assets/castle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.test-island .title {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test-island .title-text {
+    font-family: "Neue Metana-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.test-island .message-section {
+
+    width: 50vw;
+    min-height: 50vh;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test-island .message-box {
+    width: 50vw;
+    min-height: 50vh;
+    height: fit-content;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 5px;
+    border: 6px solid #940d99;
+}
+
+.test-island .message-text {
+    color: #000000;
+    font-family: "Space Mono-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.test-island .message-cid {
+    height: 150px;
+    width: 150px;
+    translate: 25vw -5vh;
+}
+
+.test-island .button-section {
+    width: 50vw;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.test-island .button {
+    min-height: fit-content;
+    width: 90%;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #940d99;
+}
+
+.test-island .button:hover {
+    background-color: #96579e;
+    color: white;
+}

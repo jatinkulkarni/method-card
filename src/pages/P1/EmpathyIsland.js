@@ -3,7 +3,9 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
-import '../islandpage.css';
+import Cid from '../../assets/cid.png'
+
+// CSS
 import './Empathy.css';
 
 export default function EmpathyIsland() {
@@ -18,21 +20,25 @@ export default function EmpathyIsland() {
     const navigate = useNavigate();
 
     return(
-        <div>
-            <main>
-                <div className="island-container empathy-container">
-                    <div className="island-title">
-                        <h1>Empathy Island</h1>
-                    </div>
-                    <div className="textbox empathy-textbox">
-                        <p>Welcome to Empathy Island!</p>
-                    </div>
-                    <div className="button-section">
-                        <button className="button empathy-button" onClick={() => {navigate('/phase1')}} >Continue</button>
-                        <button className="button empathy-button" onClick={() => {navigate('/')}} >Go Back</button>
-                    </div>
+        <div className="empathy-island">
+            <div className="background">
+                <div className="title">
+                    <div className="title-text">Welcome!</div>
                 </div>
-            </main>
+                <div className="message-section">
+                    <div className="message-box">
+                        <p className="message-text">
+                            You have landed on Empathy Island! The people of the island are experts at helping define a problem
+                            based on your data. They will help you choose a research method based on your project.
+                        </p>
+                    </div>
+                    <img className="message-cid" alt="Cid" src={Cid}/>
+                </div>
+                <div className="button-section">
+                    <button className="button" onClick={() => {navigate('/phase2')}} >Continue</button>
+                    <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,0 +1,88 @@
+.define-island {
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.define-island .overlap-wrapper {
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+}
+
+.define-island .overlap {
+  background-image: url(https://c.animaapp.com/AZE0thoE/img/img-5127-2-2.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  /* height: 982px; */
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.define-island .text-wrapper {
+  color: #000000;
+  font-family: "Neue Metana-Bold", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  height: 55px;
+  left: 409px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 129px;
+  width: 693px;
+}
+
+.define-island .overlap-group {
+  height: 645px;
+  /* left: 274px; */
+  margin-left: 20vw;
+  position: absolute;
+  top: 211px;
+  /* width: 1069px; */
+  width: 60vw;
+}
+
+.define-island .group {
+  height: 560px;
+  /* left: 0; */
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 965px;
+}
+
+.define-island .div-wrapper {
+  background-color: #ffffffd9;
+  border-radius: 10px;
+  height: 560px;
+  position: relative;
+  width: 963px;
+}
+
+.define-island .div {
+  color: #000000;
+  font-family: "Space Mono-Regular", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: 900px;
+}
+
+.define-island .image {
+  height: 180px;
+  left: 877px;
+  object-fit: cover;
+  position: absolute;
+  top: 465px;
+  width: 192px;
+}
