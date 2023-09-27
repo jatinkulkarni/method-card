@@ -11,7 +11,9 @@ export default function Welcome() {
     };
   
     const updateAvatarName = () => {
-      setAvatarName(newAvatarName);
+      if (newAvatarName.trim() !== '') {
+        setAvatarName(newAvatarName);
+      }
     };
 
     const navigate = useNavigate();

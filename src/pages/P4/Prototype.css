@@ -128,6 +128,8 @@
     width: 90%;
     font-size: 35px;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     align-items: center;
     border: 3px solid #160d99;
@@ -211,6 +213,7 @@
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
