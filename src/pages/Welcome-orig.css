@@ -1,0 +1,76 @@
+.welcome {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome .avatarName {
+    align-items: center;
+    /* height: 50px; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome .avatar-text {
+    font-family: "Neue Metana-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.welcome .avatar-customize {
+    display: grid;
+    width: 40%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 70% 30%;
+}
+
+.welcome .avatar-tb {
+    width: 80%;
+}
+
+.welcome .avatar-change {
+    background-color: beige;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.welcome .avatar-change:hover {
+    background-color: rgb(79, 79, 69);
+    color: white;
+}
+
+.welcome .instruction-section {
+    height: 450px;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+}
+
+.welcome .continue-section {
+    height: 50px;
+    margin-top: 40px;
+}
+
+.welcome .continue-button {
+    background-color: brown;
+    height:50px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.welcome .continue-button:hover {
+    background-color: rgb(79, 20, 20);
+    color: white;
+} */
+

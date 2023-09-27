@@ -31,8 +31,8 @@ export default function IdeateIsland() {
                 <div className="message-section">
                     <div className="message-box">
                         <p className="message-text">
-                            You have landed on Ideate Island! The people of the island are experts at helping define a problem
-                            based on your data. They will help you choose a research method based on your project.
+                        You have landed on Ideate Island! The people here are some of the most creative thinkers in the 
+                        universe. They will help you choose a method to generate ideas!
                         </p>
                     </div>
                     <img className="message-cid" alt="Cid" src={Cid}/>

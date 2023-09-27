@@ -41,7 +41,7 @@
 }
 
 .ideate-island .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/ideate-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@
     display: flex;
     align-items: center;
     border-radius: 5px;
-    border: 6px solid #97990d;
+    border: 6px solid #323232;
 }
 
 .ideate-island .message-text {
@@ -120,11 +120,11 @@
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    border: 3px solid #97990d;
+    border: 3px solid #323232;
 }
 
 .ideate-island .button:hover {
-    background-color: #adaa87;
+    background-color: #6d6d6d;
     color: white;
 }
 
@@ -138,7 +138,7 @@
 }
 
 .ideate-question .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/ideate-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 6px solid #97990d;
+    border: 6px solid #323232;
 }
 
 .ideate-question .context-text {
@@ -183,7 +183,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 6px solid #97990d;
+    border: 6px solid #323232;
 }
 
 .ideate-question .question-text {
@@ -216,11 +216,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid #97990d;
+    border: 3px solid #323232;
 }
 
 .ideate-question .button:hover {
-    background-color: #adaa87;
+    background-color: #6d6d6d;
     color: white;
 }
 

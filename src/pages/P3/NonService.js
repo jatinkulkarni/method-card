@@ -12,17 +12,21 @@ export default function NonService() {
             <div className="background">
                 <div className="context">
                     <p className="context-text">
-                        Context
+                        Engaging users in the ideation phase can make solutions more aligned with their needs and promote diverse ideas. 
+                        <br/><br/>
+                        However, it might also slow down the process, limit innovative ideas, and require careful handling of user expectations. 
+                        <br/><br/>
+                        Balancing user input with clear design direction is key.
                     </p>
                 </div>
                 <div className="question">
                     <p className="question-text">
-                        Question
+                        Would you like to involve the user in your ideation?
                     </p>
                 </div>
                 <div className="button-section">
-                    <button className="button" onClick={() => {navigate('/phase3/Multi/NonService/Creative-Toolkit')}} >User</button>
-                    <button className="button" onClick={() => {navigate('/phase3/Multi/NonService/Charette')}}>Designer</button>
+                    <button className="button" onClick={() => {navigate('/phase3/Multi/NonService/Charette')}}>Yes</button>
+                    <button className="button" onClick={() => {navigate('/phase3/Multi/NonService/Creative-Toolkit')}} >No</button>
                 </div>
             </div>
         </div>

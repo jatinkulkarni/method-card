@@ -41,7 +41,7 @@
 }
 
 .empathy-island .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/empathy-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@
 }
 
 .empathy-question .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/empathy-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

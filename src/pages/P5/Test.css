@@ -41,7 +41,7 @@
 }
 
 .test-island .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/test-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@
 }
 
 .test-question .background {
-    background-image: url('../../assets/castle.png');
+    background-image: url('../../assets/test-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

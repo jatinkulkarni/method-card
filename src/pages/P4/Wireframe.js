@@ -9,7 +9,7 @@ export default function Wireframe() {
             <main>
                 <div class="container">
                     <div className="left-column prototype-left-column">
-                        <h1>Wireframe</h1>
+                        <h1>Digital Wireframe</h1>
                         <div className="square">
                             <img className="image" alt="Method" src={cardImage}/>
                         </div>

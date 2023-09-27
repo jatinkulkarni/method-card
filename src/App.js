@@ -4,6 +4,8 @@ import { logEvent } from "firebase/analytics";
 import { analytics } from './firebase/firebase';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Welcome from './pages/Welcome';
+import Yes from './pages/Intro/Yes';
+import No from './pages/Intro/No';
 import Homepage from './pages/Homepage.js';
 import EmpathyIsland from './pages/P1/EmpathyIsland';
 import Phase1 from './pages/P1/Phase1.js';
@@ -57,6 +59,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Welcome/>} />
+          <Route path='/intro/yes' element={<Yes/>} />
+          <Route path='/intro/no' element={<No/>} />
           <Route path='/phaseSelect' element={<Homepage/>} />
           <Route path='/empathy' element={<EmpathyIsland/>} />
           <Route path='/phase1' element={<Phase1/>} />

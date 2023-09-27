@@ -9,7 +9,7 @@ export default function Role() {
             <main>
                 <div class="container">
                     <div className="left-column prototype-left-column">
-                        <h1>Role</h1>
+                        <h1>Role Playing</h1>
                         <div className="square">
                             <img className="image" alt="Method" src={cardImage}/>
                         </div>
