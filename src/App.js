@@ -1,4 +1,7 @@
 import './App.css';
+import { useEffect } from 'react'; // Import useEffect
+import { logEvent } from "firebase/analytics";
+import { analytics } from './firebase/firebase';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Homepage from './pages/Homepage.js';
 import EmpathyIsland from './pages/P1/EmpathyIsland';
@@ -42,6 +45,12 @@ import WalkThrough from './pages/P5/WalkThrough';
 import ABTesting from './pages/P5/ABTesting';
 
 function App() {
+  useEffect(() => {
+    // Log a custom event to indicate that App.js was loaded or executed
+    logEvent(analytics, 'app_js_loaded', {
+      event_description: 'App.js was loaded or executed',
+    });
+  }, []); 
   return (
     <div className="App">
       <Router>
