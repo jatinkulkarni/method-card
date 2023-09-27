@@ -12,12 +12,14 @@ export default function Individual() {
             <div className="background">
                 <div className="context">
                     <p className="context-text">
-                        Context
+                    Design researchers can gain insight from individuals in a number of different ways. Based off of their 
+                    problem, it can become clear whether information would be better gathered from a show don’t tell mindset, 
+                    or vice versa. 
                     </p>
                 </div>
                 <div className="question">
                     <p className="question-text">
-                        Question
+                        Would you like your observation to be verbally, or physically based?
                     </p>
                 </div>
                 <div className="button-section">

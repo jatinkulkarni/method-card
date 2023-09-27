@@ -12,12 +12,14 @@ export default function Group() {
             <div className="background">
                 <div className="context">
                     <p className="context-text">
-                        Context
+                        In understanding group data, you should determine what specific information would be the most beneficial 
+                        to your design problem. For example,  if you’re designing for a digital platform, gathering location 
+                        information from users may not be very insightful.
                     </p>
                 </div>
                 <div className="question">
                     <p className="question-text">
-                        Question
+                        Would you like your understanding to gather location data, or general observations?
                     </p>
                 </div>
                 <div className="button-section">

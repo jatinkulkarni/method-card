@@ -12,12 +12,15 @@ export default function Phase1() {
             <div className="background">
                 <div className="context">
                     <p className="context-text">
-                        Context
+                        Empathizing with those who work, create, or experience the problem you are hoping to solve is the most 
+                        fundamental step in the design process. In doing so its important to understand your resources, and 
+                        determine whether you have the tools to focus your time on group observation and data collection, or 
+                        on an individual’s current experience.
                     </p>
                 </div>
                 <div className="question">
                     <p className="question-text">
-                        Question
+                        Would you like to focus initial data collection on a group/general demographic or a unique individual?
                     </p>
                 </div>
                 <div className="button-section">
