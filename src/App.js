@@ -54,7 +54,6 @@ import FocusGroup from './pages/P5/FocusGroup';
 import Quantitative from './pages/P5/Quantitative';
 import WalkThrough from './pages/P5/WalkThrough';
 import ABTesting from './pages/P5/ABTesting';
-import BackgroundMusic from './assets/background-music.mp3';
 
 function App() {
   useEffect(() => {
@@ -65,14 +64,6 @@ function App() {
   }, []); 
   return (
     <div className="App">
-      <audio
-        src={BackgroundMusic}
-        autoPlayloop
-        controls={false}
-        style={{ display: 'none'}}
-      >
-        Your browser does not support the audio element.
-      </audio>
       <Router>
         <Routes>
           <Route path='/' element={<StartPage />} />
