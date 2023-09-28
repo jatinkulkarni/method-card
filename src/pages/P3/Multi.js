@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../questionpage.css';
 import './Ideate.css';
+import Cid from '../../assets/cid-ideate.png'
 
 export default function Multi() {
 
@@ -26,31 +27,8 @@ export default function Multi() {
                     <button className="button" onClick={() => {navigate('/phase3/Multi/BodyStorming')}} >Service Design</button>
                     <button className="button" onClick={() => {navigate('/phase3/Mutli/NonService')}}>Non service Design</button>
                 </div>
+                <img className="cid" alt="Cid" src={Cid}/>
             </div>
         </div>
     )
 }
-
-// export default function Multi() {
-
-//     const navigate = useNavigate();
-
-//     return(
-//         <div>
-//             <main>
-//                 <div className="question-container ideate-container">
-//                     <div className="ideate-textbox question-textbox">
-//                         <h2>Context</h2>
-//                     </div>
-//                     <div className="question-textbox ideate-textbox">
-//                         <h2>Service or NonService?</h2>
-//                     </div>
-//                     <div className="selection-section">
-//                         <button className="selection-button ideate-button" onClick={() => {navigate('/phase3/Multi/BodyStorming')}} >Service</button>
-//                         <button className="selection-button ideate-button" onClick={() => {navigate('/phase3/Mutli/NonService')}}>NonService</button>
-//                     </div>
-//                 </div>
-//             </main>
-//         </div>
-//     )
-// }

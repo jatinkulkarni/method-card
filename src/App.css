@@ -46,3 +46,13 @@
   font-family: 'NeueMetana-Bold';
   src: url('./fonts/NeueMetana-Bold.otf') format('opentype');
 }
+
+@font-face {
+  font-family: 'Notable-Regualar';
+  src: url('./fonts/Notable-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url('./fonts/SpaceMono-Bold.ttf') format('truetype');
+}

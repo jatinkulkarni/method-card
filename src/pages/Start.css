@@ -1,0 +1,101 @@
+.start {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column
+}
+
+.start .background {
+    background-image: url('../assets/welcome-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.start .title-section {
+    display: grid;
+    padding: 60px;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.start .title-text-section {
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.start .title-text-red {
+    font-family: "Notable-Regular", Helvetica;
+    font-size: 60px;
+    padding-top: 10px;
+    color: red;
+    /* position: absolute; */
+}
+
+.start .title-text-yellow {
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Notable-Regular", Helvetica;
+    font-size: 60px;
+    padding-left: 7px;
+    color: yellow;
+    position: absolute;
+}
+
+h1 {
+    font-family: "Notable-Regular", Helvetica;
+}
+
+.start .lower-section {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.start .button-section {
+    padding-top: 90px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+}
+
+.start .start-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.start .start-button:hover {
+    background-color: rgb(88, 88, 19); 
+    color: white;
+}
+
+.start .see-methods-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 50px;
+    background-color: red;
+}
+
+.start .see-methods-button:hover {
+    background-color: rgb(97, 28, 28);
+    color: white;
+}
+
+
+p {
+    font-family: 'SpaceMono-Bold', Helvetica;
+    font-size: 25px;
+}
+
+.start .cid {
+    height: 350px;
+    /* position: absolute; */
+    /* top: 55%;
+    left: 72%; */
+}

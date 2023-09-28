@@ -5,7 +5,7 @@ import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
 import Cid from '../../assets/cid.png'
 
-import '../Welcome.css'
+import './Welcome.css'
 
 export default function Empathize() {
     useEffect(() => {
@@ -20,17 +20,20 @@ export default function Empathize() {
     return(
       <div className="welcome">
           <div className="background">
+            <div className="title">
+                  <div className="title-text">Empathize</div>
+              </div>
               <div className="message-section">
                   <div className="message-box-1">
                       <p className="message-text">
-                        No problem. Come visit me again when you have a design challenge!
+                        Empathy is the process of understanding and identifying with your audience's needs, desires, and preferences. 
                       </p>
                   </div>
-                  <img className="message-cid" alt="Cid" src={Cid}/>
               </div>
               <div className="button-section-1">
-                  <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
+                  <button className="button" onClick={() => {navigate('/intro/Define')}} >Next</button>
               </div>
+            <img className="cid" alt="Cid" src={Cid}/>
           </div>
       </div>
   )

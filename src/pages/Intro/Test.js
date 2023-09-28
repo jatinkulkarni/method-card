@@ -7,7 +7,7 @@ import Cid from '../../assets/cid.png'
 
 import './Welcome.css'
 
-export default function Yes() {
+export default function Test() {
     useEffect(() => {
       // Log a custom event to indicate that App.js was loaded or executed
       logEvent(analytics, 'yes_js_loaded', {
@@ -20,18 +20,19 @@ export default function Yes() {
     return(
       <div className="welcome">
           <div className="background">
+            <div className="title">
+                  <div className="title-text">Test</div>
+              </div>
               <div className="message-section">
                   <div className="message-box-1">
                       <p className="message-text">
-                      Yay! I see that you have a design problem, but you don’t know which method(s) to use. 
-                      Don’t fret! This game is all about finding the right design method for you. Before we begin, 
-                      let me tell you more about each design phase. Are you ready?
+                      Testing in the design process is where the proposed design concepts and ideas are evaluated, 
+                      verified, and validated to ensure they meet the project's objectives and user requirements.
                       </p>
                   </div>
               </div>
-              <div className="button-section">
-                  <button className="button" onClick={() => {navigate('/intro/Empathize')}} >Yes</button>
-                  <button className="button" onClick={() => {navigate('/')}} >No</button>
+              <div className="button-section-1">
+                  <button className="button" onClick={() => {navigate('/intro/PostIntro')}} >Next</button>
               </div>
             <img className="cid" alt="Cid" src={Cid}/>
           </div>

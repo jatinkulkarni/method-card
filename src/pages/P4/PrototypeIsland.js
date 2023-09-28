@@ -4,7 +4,7 @@ import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
 import { useAppContext } from '../../AppContext';
-import Cid from '../../assets/cid.png'
+import Cid from '../../assets/cid-prototype.png';
 
 // CSS
 import './Prototype.css';

@@ -3,9 +3,17 @@ import { useEffect } from 'react'; // Import useEffect
 import { logEvent } from "firebase/analytics";
 import { analytics } from './firebase/firebase';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Welcome from './pages/Welcome';
+import StartPage from './pages/Start';
+import AllMethods from './pages/AllMethods';
+import Welcome from './pages/Intro/Welcome';
 import Yes from './pages/Intro/Yes';
 import No from './pages/Intro/No';
+import Empathize from './pages/Intro/Empathize';
+import Define from './pages/Intro/Define';
+import Ideate from './pages/Intro/Ideate';
+import Prototype from './pages/Intro/Prototype';
+import Test from './pages/Intro/Test';
+import PostIntro from './pages/Intro/PostIntro';
 import Homepage from './pages/Homepage.js';
 import EmpathyIsland from './pages/P1/EmpathyIsland';
 import Phase1 from './pages/P1/Phase1.js';
@@ -46,6 +54,7 @@ import FocusGroup from './pages/P5/FocusGroup';
 import Quantitative from './pages/P5/Quantitative';
 import WalkThrough from './pages/P5/WalkThrough';
 import ABTesting from './pages/P5/ABTesting';
+import BackgroundMusic from './assets/background-music.mp3';
 
 function App() {
   useEffect(() => {
@@ -56,11 +65,27 @@ function App() {
   }, []); 
   return (
     <div className="App">
+      <audio
+        src={BackgroundMusic}
+        autoPlayloop
+        controls={false}
+        style={{ display: 'none'}}
+      >
+        Your browser does not support the audio element.
+      </audio>
       <Router>
         <Routes>
-          <Route path='/' element={<Welcome/>} />
+          <Route path='/' element={<StartPage />} />
+          <Route path='/all-methods' element={<AllMethods/>} />
+          <Route path='/intro' element={<Welcome/>} />
           <Route path='/intro/yes' element={<Yes/>} />
           <Route path='/intro/no' element={<No/>} />
+          <Route path='/intro/Empathize' element={<Empathize/>} />
+          <Route path='/intro/Define' element={<Define/>} />
+          <Route path='/intro/Ideate' element={<Ideate/>} />
+          <Route path='/intro/Prototype' element={<Prototype/>} />
+          <Route path='/intro/Test' element={<Test/>} />
+          <Route path='/intro/PostIntro' element={<PostIntro/>} />
           <Route path='/phaseSelect' element={<Homepage/>} />
           <Route path='/empathy' element={<EmpathyIsland/>} />
           <Route path='/phase1' element={<Phase1/>} />

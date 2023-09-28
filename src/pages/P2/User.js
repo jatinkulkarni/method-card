@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from "react-router-dom";
 import '../questionpage.css';
 import './Define.css';
+import Cid from '../../assets/cid-define.png'
 
 export default function User() {
 
@@ -24,31 +25,9 @@ export default function User() {
                     <button className="button" onClick={() => {navigate('/phase2/User/Like5')}} >Verbal</button>
                     <button className="button" onClick={() => {navigate('/phase2/User/NonVerbal')}}>Non Verbal</button>
                 </div>
+                <img className="cid" alt="Cid" src={Cid}/>
             </div>
         </div>
     )
 }
 
-// export default function User() {
-
-//     const navigate = useNavigate();
-
-//     return(
-//         <div>
-//             <main>
-//                 <div className="question-container define-container">
-//                     <div className="define-textbox question-textbox">
-//                         <h2>Context</h2>
-//                     </div>
-//                     <div className="question-textbox define-textbox">
-//                         <h2>Verbal or Non Verbal?</h2>
-//                     </div>
-//                     <div className="selection-section">
-//                         <button className="selection-button define-button" onClick={() => {navigate('/phase2/User/Like5')}} >Verbal</button>
-//                         <button className="selection-button define-button" onClick={() => {navigate('/phase2/User/NonVerbal')}}>Non Verbal</button>
-//                     </div>
-//                 </div>
-//             </main>
-//         </div>
-//     )
-// }

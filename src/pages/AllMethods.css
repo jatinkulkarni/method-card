@@ -1,0 +1,74 @@
+.methods {
+    min-height: 100vh;
+    height: fit-content;
+    min-width: 100vw;
+    width: fit-content;
+    display: flex;
+    flex-direction: column
+}
+
+.methods .background {
+    background-image: url('../assets/welcome-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.methods .title {
+    height: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.methods .title-text {
+    font-family: "Neue metana-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.methods .method-grid {
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.methods .method-card {
+    background-color: #ffb95fd8;
+    padding: 20px;
+    border: 3px solid #a86916;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.methods .method-card:hover {
+    background-color: #a86916;
+    border: 3px solid #ffb95fd8;
+    color: white;
+}
+
+.methods .button {
+    margin-top: 50px;
+    background-color: red;
+    padding: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.methods .button:hover {
+    background-color: rgb(80, 14, 14);
+    color: white;
+}
+
+p {
+    font-family: 'SpaceMono-Bold', Helvetica;
+    font-size: 25px;
+}

@@ -5,7 +5,7 @@ import { logEvent } from "firebase/analytics";
 import { analytics } from '../../firebase/firebase';
 import Cid from '../../assets/cid.png'
 
-import '../Welcome.css'
+import './Welcome.css'
 
 export default function No() {
     useEffect(() => {
@@ -26,11 +26,11 @@ export default function No() {
                         No problem. Come visit me again when you have a design challenge!
                       </p>
                   </div>
-                  <img className="message-cid" alt="Cid" src={Cid}/>
               </div>
               <div className="button-section-1">
                   <button className="button" onClick={() => {navigate('/')}} >Go Back</button>
               </div>
+            <img className="cid" alt="Cid" src={Cid}/>
           </div>
       </div>
   )

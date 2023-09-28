@@ -164,18 +164,18 @@ Phases
         |
         |-> Single
             |
-            |-> Love Letter
+            |-> Love Letter ****
         |
         |-> Multi
             |
-            |-> Focus Group
+            |-> Focus Group ****
     |
     |-> Quantitative (Q2_P5)
         |
         |-> Single
             |
-            |-> Walkthrough
+            |-> Walkthrough ****
         |
         |-> Multi
             |
-            |-> A/B Testing
+            |-> A/B Testing ****
