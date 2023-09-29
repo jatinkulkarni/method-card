@@ -54,9 +54,21 @@ export default function Graffiti() {
                             <p className="case-study-side-font">
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
-                                    <li>Participants: A diverse group of UT Austin students representing various backgrounds and dietary preferences.</li>
-                                    <li>Data Collection: Participants were given access to physical or digital graffiti walls, where they could express their experiences and preferences regarding food options on campus.</li>
-                                    <li>Data Analysis: Graffiti wall contributions were analyzed to identify recurring themes, preferences, and concerns.</li>
+                                    <li>Participants:
+                                        <ul className="case-study-tb-list">
+                                            <li>A diverse group of UT Austin students representing various backgrounds and dietary preferences.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Data Collection:
+                                        <ul className="case-study-tb-list">
+                                            <li>Participants were given access to physical or digital graffiti walls, where they could express their experiences and preferences regarding food options on campus.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Data Analysis:
+                                        <ul className="case-study-tb-list">
+                                            <li>Graffiti wall contributions were analyzed to identify recurring themes, preferences, and concerns.</li>
+                                        </ul>
+                                    </li>
                                 </ol>
                             </p>
                             <p className="case-study-side-font">
@@ -65,6 +77,15 @@ export default function Graffiti() {
                                     <li>Students expressed both satisfaction with certain food options and concerns about others, shedding light on areas for improvement in campus dining services.</li>
                                     <li>The Graffiti Wall method provided a platform for students to openly express their opinions, enabling a deeper understanding of their dietary preferences and expectations.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://medium.com/abbas-sbeity/design-methods-graffiti-walls-5ccba9fe7639" target="blank">https://medium.com/abbas-sbeity/design-methods-graffiti-walls-5ccba9fe7639</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://medium.com/@MotoVibes/graffiti-and-agile-design-a-philosophical-approach-5d9880641b66" target="blank">https://medium.com/@MotoVibes/graffiti-and-agile-design-a-philosophical-approach-5d9880641b66</a>
                             </p>
                         </div>
                     </div>

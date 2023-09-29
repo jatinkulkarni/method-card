@@ -56,24 +56,24 @@ export default function MindMap() {
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
                                     <li>
-                                        Role-Playing Setup:
+                                        Creating the Main Theme:
                                         <ul className="case-study-tb-list">
-                                            <li>Identify key stakeholders to participate in the role-playing exercise. This may include students, faculty, staff, and parking management personnel.</li>
-                                            <li>Assign specific roles to participants, such as a student looking for parking, a faculty member needing a reserved spot, and a parking attendant using the new system.</li>
+                                            <li>Transportation was the word chosen to be the central idea of the Mind Map. </li>
+                                            <li>One word or a short phrase is ideal.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Scenario Development:
+                                        Adding the Main Branches:
                                         <ul className="case-study-tb-list">
-                                            <li>Create a realistic scenario for the role-playing exercise. For example, it could involve a busy Monday morning with limited parking spots available.</li>
-                                            <li>Provide each participant with background information about their role, including their specific goals and challenges.</li>
+                                            <li>From the main idea, about four categories were created- private, public, expensive, time-saving. There could be more, but those four are what was generated at the time.</li>
+                                            <li>Limited supplies were used for this mind map, but Colors should be used to symbolize to symbolize notable connections and pictures for a more visual effect.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Role-Playing Session:
+                                        Adding More:
                                         <ul className="case-study-tb-list">
-                                            <li>Conduct the role-playing session in a simulated environment, such as a classroom or a designated parking area.</li>
-                                            <li>Participants act out their assigned roles, interacting with each other and the parking management system.</li>
+                                            <li>From those main branches, expand into other ideas and connect what makes sense.</li>
+                                            <li>Then reflect on your mind map and revise or add more connections/ideas.</li>
                                         </ul>
                                     </li>
                                 </ol>
@@ -81,9 +81,18 @@ export default function MindMap() {
                             <p className="case-study-side-font">
                                 <strong>Insights: </strong>
                                 <ul className="case-study-tb-list">
-                                    <li>The role-playing exercise provided valuable insights into how different user groups interact with the parking management system.</li>
-                                    <li>The student may have found it difficult to locate available parking spots, while the faculty member may have encountered issues with reserving a spot.</li>
+                                    <li>Mind Mapping made the it easier to identify groups and similarities within the large theme of “transportation”</li>
+                                    <li>Some people tend to make their Mind Maps aesthetic and artsy, but I learned that makes it harder to generate ideas. Editing and pausing should be minimal and every possibility should be mapped because it may prove to be useful later on.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://cleverism.com/techniques-idea-generation-mind-maps/" target="blank">Intro and Usages to Mind Maps</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://www.mural.co/blog/mind-mapping" target="blank">Tips, examples, & templates</a>
                             </p>
                         </div>
                     </div>

@@ -56,3 +56,8 @@
   font-family: 'SpaceMono-Bold';
   src: url('./fonts/SpaceMono-Bold.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('./fonts/SpaceMono-Regular.ttf') format('truetype');
+}

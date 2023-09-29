@@ -55,11 +55,31 @@ export default function Weighted() {
                             <p className="case-study-side-font">
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
-                                    <li>Data Collection: We gathered student information (GPA, career goals, area of interests, etc.) and course information offered in the Design Strategies strand (course description, faculty, etc.)</li>
-                                    <li>Weight Assignment: We helped students define the weights for various factors, such as career goals, areas of interest, past performance, and faculty-student compatibility.</li>
-                                    <li>Rank: Students rank each course for each criterion on a descriptive scale (e.g., unimportant, slightly important, important, very important).</li>
-                                    <li>Matching and Recommendation: A score is calculated for each student by multiplying the weight for each criterion by the student's ranking for that criterion.</li>
-                                    <li>Feedback and Adjustment: Courses with higher scores are recommended to each student specific to their personalization.After receiving course recommendations, students had the opportunity to provide feedback and make adjustments.</li>
+                                    <li>Data Collection:
+                                        <ul className="case-study-tb-list">
+                                            <li>We gathered student information (GPA, career goals, area of interests, etc.) and course information offered in the Design Strategies strand (course description, faculty, etc.)</li>
+                                        </ul>
+                                    </li>
+                                    <li>Weight Assignment:
+                                        <ul className="case-study-tb-list">
+                                            <li>We helped students define the weights for various factors, such as career goals, areas of interest, past performance, and faculty-student compatibility.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Rank:
+                                        <ul className="case-study-tb-list">
+                                            <li>Students rank each course for each criterion on a descriptive scale (e.g., unimportant, slightly important, important, very important).</li>
+                                        </ul>
+                                    </li>
+                                    <li>Matching and Recommendation:
+                                        <ul className="case-study-tb-list">
+                                            <li>A score is calculated for each student by multiplying the weight for each criterion by the student's ranking for that criterion.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Feedback and Adjustment:
+                                        <ul className="case-study-tb-list">
+                                            <li>Courses with higher scores are recommended to each student specific to their personalization.After receiving course recommendations, students had the opportunity to provide feedback and make adjustments.</li>
+                                        </ul>
+                                    </li>
                                 </ol>
                             </p>
                             <p className="case-study-side-font">
@@ -68,6 +88,15 @@ export default function Weighted() {
                                     <li>The implementation of the weighted matrix method in has allowed students to receive tailored recommendations that consider their unique career goals and areas of interest.</li>
                                     <li>This method allows for objective decision-making, prioritization, efficiency driven by data that align with project objectives.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://airfocus.com/blog/weighted-decision-matrix-prioritization/" target="blank">https://airfocus.com/blog/weighted-decision-matrix-prioritization/</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://www.designorate.com/decision-matrix-decision-making/" target="blank">https://www.designorate.com/decision-matrix-decision-making/</a>
                             </p>
                         </div>
                     </div>

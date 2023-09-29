@@ -43,7 +43,10 @@ export default function Sort() {
                                 We will show you an example of the “card sorting method in action.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Background: </strong>The University of Texas Filipino Student Association (UTFSA) has a website that provides information about their organization, events, and resources.
+                                <strong>Study: </strong> UTFSA Webpage
+                            </p>
+                            <p className="case-study-side-font">
+                                <strong>Background: </strong>The University of Texas Filipino Student Association (UTFSA) has a website that provides information about their organization, events, and resources.UTFSA decided to create a "Find a Fam" page on their website to centralize all relevant information. To determine the best way to structure this new page, they opted for the "Card Sorting" method to get insights from their members.
                             </p>
                             <p className="case-study-side-font">
                                 <strong>Problem Statement: </strong>UTFSA wanted to make it easier for students to find and join "Fams" within their organization.
@@ -54,11 +57,31 @@ export default function Sort() {
                             <p className="case-study-side-font">
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
-                                    <li>Preparing the Cards: UTFSA created digital cards, each representing a piece of content related to the "Find a Fam" program. These included information about how to join, fam leaders, definitions.</li>
-                                    <li>Member Participation: UTFSA reached out to their members and invited them to participate in the card sorting activity. They explained the purpose: to gather insights on how the "Find a Fam" page should be organized for easy access.</li>
-                                    <li>Organizing the Content: Members were given the digital cards and asked to group them based on what they thought would make the most sense. They were encouraged to suggest labels or categories for the groups.</li>
-                                    <li>Data Collection: As members completed the card sorting, UTFSA recorded their groupings, label suggestions, and any comments they made during the exercise.</li>
-                                    <li>Analyzing the Results: After several members had completed the card sorting, UTFSA analyzed the data to identify patterns in how members naturally organized the content. This information was used to structure the "Find a Fam" page.</li>
+                                    <li>Preparing the Cards:
+                                        <ul className="case-study-tb-list">
+                                            <li>UTFSA created digital cards, each representing a piece of content related to the "Find a Fam" program. These included information about how to join, fam leaders, definitions.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Member Participation:
+                                        <ul className="case-study-tb-list">
+                                            <li>UTFSA reached out to their members and invited them to participate in the card sorting activity. They explained the purpose: to gather insights on how the "Find a Fam" page should be organized for easy access.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Orgainizing the Content:
+                                        <ul className="case-study-tb-list">
+                                            <li>Members were given the digital cards and asked to group them based on what they thought would make the most sense. They were encouraged to suggest labels or categories for the groups.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Data Collection:
+                                        <ul className="case-study-tb-list">
+                                            <li>As members completed the card sorting, UTFSA recorded their groupings, label suggestions, and any comments they made during the exercise.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Analyzing the Results:
+                                        <ul className="case-study-tb-list">
+                                        After several members had completed the card sorting, UTFSA analyzed the data to identify patterns in how members naturally organized the content. This information was used to structure the "Find a Fam" page.
+                                        </ul>
+                                    </li>
                                 </ol>
                             </p>
                             <p className="case-study-side-font">
@@ -67,6 +90,15 @@ export default function Sort() {
                                     <li>The "Find a Fam" page now makes it easier for members to navigate fams that are looking for adings.</li>
                                     <li>The card sorting exercise allowed for user-centered design, optimized information architecture, enhance usability, and higher engagement.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://maze.co/guides/card-sorting/" target="blank">https://maze.co/guides/card-sorting/</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://uxdesign.cc/card-sorting-what-how-the-perks-29f6cb020270" target="blank">https://uxdesign.cc/card-sorting-what-how-the-perks-29f6cb020270</a>
                             </p>
                         </div>
                     </div>

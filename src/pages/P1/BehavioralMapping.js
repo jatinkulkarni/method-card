@@ -15,7 +15,7 @@ export default function BehavioralMapping() {
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
-                                <strong>Objective:</strong> Systematically document location-based observations of participant activity when interacting with a space. 
+                                <strong>Objective:</strong> Systematically document location-based observations of participant activity when interacting with a space.
                             </p1>
                         </div>
                         <div className="method-tb">
