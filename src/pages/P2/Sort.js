@@ -9,7 +9,7 @@ export default function Sort() {
             <main>
                 <div class="container">
                     <div className="left-column define-left-column">
-                        <h1>Card Sort</h1>
+                        <h1>Card Sorting</h1>
                         <div className="square">
                             <img className="image" alt="Method " src={cardImage}/>
                         </div>

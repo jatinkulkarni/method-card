@@ -1,5 +1,6 @@
 import React from 'react';
 import '../methodcard.css';
+import cardImage from '../../assets/design-charrette.png'
 import './Ideate.css';
 
 export default function Charette() {
@@ -10,9 +11,7 @@ export default function Charette() {
                     <div className="left-column ideate-left-column">
                         <h1>Design Charette</h1>
                         <div className="square">
-                            <p>
-                                Image to be added later
-                            </p>
+                            <img className="image" alt="Method" src={cardImage}/>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
@@ -30,8 +29,9 @@ export default function Charette() {
                                 <ol className="method-tb-list">
                                     <li>Invite many participants and make sure they are diverse (stakeholders, architects, end-users, analysts, etc). </li>
                                     <li>Split up the design team into small groups to work with the participants and rapidly design solutions/ideas by brainstorming and sketching,</li>
-                                    <li>Come together as a group to share, get feedback, and combine ideas.</li>
+                                    <li>Switch up teams.</li>
                                     <li>Reiterate the process until satisfied.</li>
+                                    <li>Come together as a group to share, get feedback, and combine ideas.</li>
                                 </ol>
                             </p1>
                         </div>
@@ -43,45 +43,43 @@ export default function Charette() {
                                 We will show you an example of the Design Charrette method in action.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Study: </strong>Making digital product in CID group project in order to improve parking management
+                                <strong>Study: </strong>Generate Designs and Ideas for reducing food waste in UT.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Background: </strong> UT campus is currently facing challenges with parking management. There is a lack of clear signage, leading to confusion and congestion, especially during peak hours. This has resulted in complaints from students, faculty and staff.
+                                <strong>Background: </strong> Food waste is relevant all over the world, but to start small and local, our team decided to focus on UT. It’s common for people to overestimate their hunger and overfill their plates, especially since UT food halls are self-serving stations.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Problem Statement: </strong>There is a need for the user-friendly digital solution to optimize parking allocation and provide clear guidance to available parking spaces.
+                                <strong>Problem Statement: </strong>There is a need to minimize food waste in UT dining halls.
                             </p>
                             <p className="case-study-side-font">
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
                                     <li>
-                                        Define Prototyping Goals:
+                                        Splitting up Teams:
                                         <ul className="case-study-tb-list">
-                                            <li>Clearly outline the goals of the prototyping exercise. In this case, it would be to create physical representations of potential solutions for the parking management system.</li>
+                                            <li>At each work space, make sure there are tools like paper templates, pencils, erasers, and color markers.</li>
+                                            <li>Split up into teams with a fair amount of Designers and Non-Designers in each.</li>
+                                            <li>Begin design sessions - they should be fast and low tech.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Brainstorm Design Concepts:
+                                        Generate Ideas:
                                         <ul className="case-study-tb-list">
-                                            <li>Engage a team of designers, stakeholders, and users to brainstorm design concepts for the parking management system. Consider factors like signage, wayfinding, and user interaction.</li>
+                                            <li>Each group is given 10 minutes to sketch. </li>
+                                            <li>After time is up, the moderator asks people to switch tables and find a group they haven’t interacted with before.</li>
+                                            <li>Each person will bring forward the best ideas from each group, and ideas are created through combinations of the best part of each concept.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Sketch Initial Designs:
+                                        Reiterate:
                                         <ul className="case-study-tb-list">
-                                            <li>Start by sketching out rough designs of the parking management system on paper. These sketches will serve as the basis for creating the physical prototypes.</li>
+                                            <li>Each round of designs should build off the preferred components identified in the prior cycle.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        Create Physical Prototypes:
+                                        Come Together:
                                         <ul className="case-study-tb-list">
-                                            <li>
-                                                Use the gathered materials to build physical prototypes of different elements of the parking management system. For example:
-                                                <ul className="case-study-tb-list">
-                                                    <li>Create miniature signs to represent improved signage.</li>
-                                                    <li>Craft a model of a digital display for parking availability.</li>
-                                                </ul>
-                                            </li>
+                                            <li>Present or display the ideas of each group in an area large enough for all participants to congregate and talk.</li>
                                         </ul>
                                     </li>
                                 </ol>
@@ -89,9 +87,18 @@ export default function Charette() {
                             <p className="case-study-side-font">
                                 <strong>Insights: </strong>
                                 <ul className="case-study-tb-list">
-                                    <li>Users may have found that certain signage placements were more intuitive, or that the digital display for parking availability was particularly helpful.</li>
-                                    <li>The rapid physical prototyping exercise provided tangible representations of the proposed solutions for the parking management system.</li>
+                                    <li>Design Charrettes help with thoroughly exploring problems and are great at generating a wide range of ideas. </li>
+                                    <li>Because of how fast each round is, concepts are rough drafts or low fidelity wireframes at most.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://storymaps.arcgis.com/stories/b2ff1760acbf48c6bb99a14a16fa34aa" target="blank">Community Design Charrettes</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://www.rsandh.com/insights/the-dos-and-donts-of-design-charrettes/" target="blank">Dos & Don’ts</a>
                             </p>
                         </div>
                     </div>

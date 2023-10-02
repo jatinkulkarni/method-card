@@ -75,11 +75,11 @@ export default function RapidPrototyping() {
                                         Create Physical Prototypes:
                                         <ul className="case-study-tb-list">
                                             <li>
-                                                Use the gathered materials to build physical prototypes of different elements of the parking management system. For example:
-                                                <u1 className="case-study-tb-list">
+                                                Use the gathered materials to build physical protoypes of different elements of the parking management system. For example:
+                                                <ul className="case-study-tb-list">
                                                     <li>Create miniature signs to represent improved signage.</li>
                                                     <li>Craft a model of a digital display for parking availability.</li>
-                                                </u1>
+                                                </ul>
                                             </li>
                                         </ul>
                                     </li>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../methodcard.css';
+import cardImage from '../../assets/creative-toolkit.png'
 import './Ideate.css';
 
 export default function CreativeTK() {
@@ -10,9 +11,7 @@ export default function CreativeTK() {
                     <div className="left-column ideate-left-column">
                         <h1>Creative Toolkit</h1>
                         <div className="square">
-                            <p>
-                                Image to be added later
-                            </p>
+                            <img className="image" alt="Method" src={cardImage}/>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
@@ -41,40 +40,39 @@ export default function CreativeTK() {
                                 We will show you an example of the Creative Toolkit method in action.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Study: </strong>Making digital product in CID group project in order to improve parking management
+                                <strong>Study: </strong>Brainstorming for ways to prepare and protect ourselves from harsh Austin Winters.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Background: </strong> UT campus is currently facing challenges with parking management. There is a lack of clear signage, leading to confusion and congestion, especially during peak hours. This has resulted in complaints from students, faculty and staff.
+                                <strong>Background: </strong> Summers have been getting very hot recently, and winters will be getting even colder. Last winter, many apartments in west campus had lost power. It was very difficult for those with no heater and a low stock of water.
                             </p>
                             <p className="case-study-side-font">
-                                <strong>Problem Statement: </strong>There is a need for the user-friendly digital solution to optimize parking allocation and provide clear guidance to available parking spaces.
+                                <strong>Problem Statement: </strong> There is a need to figure out ways to prepare for winter storms in Austin.
                             </p>
                             <p className="case-study-side-font">
                                 <strong>Implementation: </strong>
                                 <ol className="case-study-tb-list">
                                     <li>
-                                        Conceptualizing the Parking Management System:
+                                        Collecting Items
                                         <ul className="case-study-tb-list">
-                                            <li>Utilize a digital wireframing tool to create a basic outline of the parking management system. This includes a user interface for a mobile app that displays available parking spots, a map of the campus, and navigation features.</li>
-                                            <li>The wireframe should show how users will interact with the app, including searching for parking, viewing available spots, and navigating to their chosen location.</li>
+                                            <li>The type of items you have in your toolkit will be based on the activities you want to encourage while ideating.</li>
+                                            <li>Sketching and drawing kits will contain paper and mediums such as paint, pencils, crayons, markers, etc.</li>
+                                            <li>Collage kits will contain large words and images.</li>
+                                            <li>Flexible modeling kits would contain clay, lego blocks, and other building/shaping mediums.</li>
+                                            <li>Larger toolboxes with a wide range of items could also be created.</li>
+                                            <li>Our toolbox had pen, markers, highlighters, and small sheets of paper.</li>
                                         </ul>
                                     </li>
                                     <li>
-                                        User Flow Design:
+                                        Using Those Items:
                                         <ul className="case-study-tb-list">
-                                            <li>Develop a user flow diagram using the wireframing tool. This illustrates how users will navigate through the app, from opening it to finding and reserving a parking spot.</li>
+                                            <li>Once you have created your toolbox, your team can now use it to generate new ideas. </li>
+                                            <li>We drew on the paper and created shapes and mockups as well</li>
                                         </ul>
                                     </li>
                                     <li>
                                         Feedback and Iteration:
                                         <ul className="case-study-tb-list">
-                                            <li>Share the wireframes with stakeholders and gather feedback. Make necessary adjustments based on their input to ensure the design meets their requirements.</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        Integration with Campus Infrastructure:
-                                        <ul className="case-study-tb-list">
-                                            <li>Create wireframes to demonstrate how the app will integrate with existing campus infrastructure, such as sensors to detect available parking spaces and synchronization with campus security systems.</li>
+                                            <li>It is important to always reflect on your creations at the end of brainstorming sessions. Critique and suggest changes to each others work & revise your idea based on that.</li>
                                         </ul>
                                     </li>
                                 </ol>
@@ -82,9 +80,18 @@ export default function CreativeTK() {
                             <p className="case-study-side-font">
                                 <strong>Insights: </strong>
                                 <ul className="case-study-tb-list">
-                                    <li>The digital wireframing process helped to visually represent the parking management system, making it easier for stakeholders to understand the proposed solution.</li>
-                                    <li>By applying Digital Wireframing in this scenario, it allows to effectively create a visual blueprint for the parking management system.</li>
+                                    <li>The creative toolkit was a fun, hands-on way to generate new ideas. Being able to physically create designs was something I initially thougt physically creating our ideas belonged in the prototyping stage.</li>
+                                    <li>We realized we could save our creations inside this toolkit, and it could be reused by other participants with the similar design problems.</li>
                                 </ul>
+                            </p>
+                            <p className="case-study-side-font">
+                                Want to learn more? We’ve linked helpful resources below  
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://davidgauntlett.com/wp-content/uploads/2013/04/LEGO_SERIOUS_PLAY_OpenSource_14mb.pdf" target="blank">Serious Play with LEGOs</a>
+                            </p>
+                            <p className="case-study-side-font">
+                                <a href="https://www.researchgate.net/publication/265498443_Harnessing_PeopleAos_Creativity_Ideation_and_Expression_through_Visual_Communication" target="blank">Velcro Modeling</a>
                             </p>
                         </div>
                     </div>

@@ -30,7 +30,7 @@
 
 .start .title-text-red {
     font-family: "Notable-Regular", Helvetica;
-    font-size: 60px;
+    font-size: 50px;
     padding-top: 10px;
     color: red;
     /* position: absolute; */
@@ -39,7 +39,7 @@
 .start .title-text-yellow {
     -webkit-text-stroke: 1px #000000;
     font-family: "Notable-Regular", Helvetica;
-    font-size: 60px;
+    font-size: 50px;
     padding-left: 7px;
     color: yellow;
     position: absolute;
@@ -55,15 +55,17 @@ h1 {
 }
 
 .start .button-section {
-    padding-top: 90px;
+    /* padding-top: 90px; */
+    padding-top: 1vh;
     display: grid;
     grid-template-rows: 50% 50%;
     justify-content: center;
 }
 
 .start .start-button {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px; */
+    margin-top: 10vh;
+    /* margin-bottom: 30px; */
     width: 250px;
     height: 50px;
     background-color: yellow;
@@ -91,10 +93,14 @@ h1 {
 p {
     font-family: 'SpaceMono-Bold', Helvetica;
     font-size: 25px;
+    color: black;
 }
 
 .start .cid {
     height: 350px;
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
     /* position: absolute; */
     /* top: 55%;
     left: 72%; */

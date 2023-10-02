@@ -59,7 +59,7 @@ export default function AllMethods() {
                     </div>
                     <div className="method-card" onClick={() => navigate('/phase2/Designer/Weighted')}>
                         <p>
-                            Weighted
+                            Weighted Matrix
                         </p>
                     </div>
                     <div className="method-card" onClick={() => navigate('/phase2/Designer/UserPersona')}>
@@ -72,7 +72,7 @@ export default function AllMethods() {
                             Mind-Mapping
                         </p>
                     </div>
-                    <div className="method-card" onClick={() => navigate('/phase3/Multi/BodyStormin')}>
+                    <div className="method-card" onClick={() => navigate('/phase3/Multi/BodyStorming')}>
                         <p>
                             Body Storming
                         </p>
@@ -114,7 +114,7 @@ export default function AllMethods() {
                     </div>
                     <div className="method-card" onClick={() => navigate('/phase5/Quantitative/WalkThrough')}>
                         <p>
-                            Walkthrough
+                            User Journey Map
                         </p>
                     </div>
                     <div className="method-card" onClick={() => navigate('/phase5/Quantitative/ABTesting')}>

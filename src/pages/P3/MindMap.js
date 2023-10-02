@@ -1,5 +1,6 @@
 import React from 'react';
 import '../methodcard.css';
+import cardImage from '../../assets/mind-mapping.png'
 import './Ideate.css';
 
 
@@ -11,9 +12,7 @@ export default function MindMap() {
                     <div className="left-column ideate-left-column">
                         <h1>Mind Map</h1>
                         <div className="square">
-                            <p>
-                                Image to be added later
-                            </p>
+                            <img className="image" alt="Method" src={cardImage}/>
                         </div>
                         <div className="method-tb">
                             <p1 className="method-side-font">
