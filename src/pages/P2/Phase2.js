@@ -26,7 +26,8 @@ export default function Phase2() {
                 </div>
                 <div className="button-section">
                     <button className="button" onClick={() => {navigate('/phase2/User')}} >Work with Users</button>
-                    <button className="button" onClick={() => {navigate("/phase2/Designer")}}>Work with Designers</button>
+                    {/* <button className="button" onClick={() => {navigate("/phase2/Designer")}}>Work with Designers</button> */}
+                    <button className="button" onClick={() => {navigate("/phase2/Designer/Weighted")}}>Work with Designers</button>
                 </div>
                 <img className="cid" alt="Cid" src={Cid}/>
             </div>
