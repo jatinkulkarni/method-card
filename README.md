@@ -1,181 +1,72 @@
-# Getting Started with Create React App
+# Design Thinking Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a game designed to gamify the **Design Thinking** process. It engages users with dynamic prompts, allowing them to explore the iterative steps involved in refining ideas within a user-centric environment. The project was built using **React**, **JavaScript**, **HTML**, **CSS**, and **Firebase** in Fall 2023. The game enhances both theoretical learning and practical application through an interactive, online experience.
 
-## Available Scripts
+## Features
+- **Interactive Gameplay:** Guides users through phases of the Design Thinking process.
+- **Dynamic Prompts:** Provides dynamic, scenario-based prompts to aid users in learning and applying Design Thinking principles.
+- **Iterative Process:** Encourages refinement of ideas in real-time, similar to the actual design process.
+- **Engagement-Oriented:** Designed to make the design process enjoyable, turning complex steps into simple, gamified interactions.
 
-In the project directory, you can run:
+## Technologies Used
+- **React**: For creating a dynamic and responsive user interface.
+- **JavaScript**: For adding interactivity and game logic.
+- **HTML/CSS**: For structuring and styling the web application.
+- **Firebase**: For backend services such as authentication and data storage.
 
-### `npm start`
+## Game Phases
+The game is structured into various phases of the **Design Thinking** process, each with specific tasks and goals:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Empathy Phase**:
+   - **Group Activities**: Behavioral Mapping, Fly-on-the-Wall observation.
+   - **Individual Activities**: Narration, Collage making.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Define Phase**:
+   - **User-Oriented Tasks**: Explain Like I'm 5, Graffiti (Passive), Card Sorting (Active).
+   - **Designer-Oriented Tasks**: Weighted Analysis, User Persona creation.
 
-### `npm test`
+3. **Ideation Phase**:
+   - **Single User**: Mind Mapping.
+   - **Group Activities**: Body Storming, Creative Toolkit, Charette sessions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Prototyping Phase**:
+   - **Digital Prototypes**: Wireframing.
+   - **Service Prototypes**: Role Play.
+   - **Physical Prototypes**: Rapid Prototyping.
 
-### `npm run build`
+5. **Testing Phase**:
+   - **Qualitative Testing**: Love Letter, Focus Group.
+   - **Quantitative Testing**: Walkthroughs, A/B Testing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to set up and run the project on your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- **Node.js** and **npm** installed.
+- Firebase account for backend services (optional but recommended).
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/design-thinking-game.git
+    cd design-thinking-game
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Start the development server:
+    ```bash
+    npm start
+    ```
+    The app will run on [http://localhost:3000](http://localhost:3000).
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-Phases 
-|
-|-> Phase 1
-    |
-    |-> Group (Q1_P1)
-        |
-        |-> Location Data
-            |
-            |-> Behavioral Mapping ****
-        |
-        |-> General
-            |
-            |-> Fly-on-the-Wall ****
-    |
-    |-> Individual
-        |
-        |-> Verbal
-            |
-            |-> Narration ****
-        |
-        |-> Physical
-            |
-            |-> Collage ****
-|
-|-> Phase 2
-    |
-    |-> User (Q1_P2)
-        |
-        |-> Verbal
-            |
-            |-> Explain Like I'm 5 ****
-        |
-        |-> Non-Verbal
-            |
-            |-> Passive
-                |
-                |-> Graffiti ****
-            |
-            |-> Active
-                |
-                |-> Card Sorting ****
-    |
-    |-> Designer (Q2_P2)
-        |
-        |-> Quantitive
-            |
-            |-> Weighted ****
-        |
-        |-> Quality
-            |
-            |-> User Persona ****
-|
-|-> Phase 3
-    |
-    |-> Single
-        |
-        |-> Mind-Map ****
-    |
-    |-> Multi (Q1_P3)
-        |
-        |-> Service
-            |
-            |-> Body Storming ****
-        |
-        |-> Nonservice (Q2_P3)
-            |
-            |-> User
-                |
-                |-> Creative Toolkit ****
-            |
-            |-> Designer
-                |
-                |-> Charette ****     
-|
-|-> Phase 4
-    |
-    |-> Digital
-        |
-        |-> Wireframe ****
-    |
-    |-> Service
-        |
-        |-> Role ****
-    |
-    |-> Physical
-        |
-        |-> Rapid Prototypeing ****
-|
-|-> Phase 5
-    |
-    |-> Qualitative (Q1_P5)
-        |
-        |-> Single
-            |
-            |-> Love Letter ****
-        |
-        |-> Multi
-            |
-            |-> Focus Group ****
-    |
-    |-> Quantitative (Q2_P5)
-        |
-        |-> Single
-            |
-            |-> Walkthrough ****
-        |
-        |-> Multi
-            |
-            |-> A/B Testing ****
+To create a production build, run:
+```bash
+npm run build
